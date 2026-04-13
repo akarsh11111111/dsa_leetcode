@@ -11,7 +11,7 @@ using namespace std;
 // l1 = [2,4,3]  -> number 342
 // l2 = [5,6,4]  -> number 465
 // sum = 807
-// output = [7,0,8]
+// output = [7,0,8]3r
 
 // Note:
 // 1) Digits reverse order me hain.
