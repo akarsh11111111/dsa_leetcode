@@ -23,3 +23,4 @@ public:
 				result += value[s[i]];
 			}
 		}
+
