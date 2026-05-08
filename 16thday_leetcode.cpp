@@ -12,3 +12,4 @@ class Solution {
 public:
 	int threeSumClosest(vector<int>& nums, int target) {
 		sort(nums.begin(), nums.end());
+		int closest = INT_MAX;
