@@ -21,3 +21,4 @@ public:
 				result -= value[s[i]];
 			} else {
 				result += value[s[i]];
+			}
