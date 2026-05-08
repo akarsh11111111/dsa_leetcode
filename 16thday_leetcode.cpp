@@ -16,3 +16,4 @@ public:
 
 		for (int i = 0; i < static_cast<int>(nums.size()) - 2; ++i) {
 			int left = i + 1;
+			int right = nums.size() - 1;
