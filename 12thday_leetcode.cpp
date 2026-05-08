@@ -17,3 +17,4 @@ public:
 
 		string result;
 		for (auto& p : values) {
+			while (num >= p.first) {
