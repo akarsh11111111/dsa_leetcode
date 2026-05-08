@@ -17,3 +17,4 @@ public:
 
 		int result = 0;
 		for (int i = 0; i < static_cast<int>(s.size()); ++i) {
+			if (i + 1 < static_cast<int>(s.size()) && value[s[i]] < value[s[i + 1]]) {
