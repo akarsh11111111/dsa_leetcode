@@ -22,3 +22,4 @@ public:
 			} else {
 				result += value[s[i]];
 			}
+		}
