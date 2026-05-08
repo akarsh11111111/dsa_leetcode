@@ -21,3 +21,4 @@ public:
 				if (prefix.empty()) {
 					return "";
 				}
+			}
