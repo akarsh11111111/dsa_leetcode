@@ -26,3 +26,4 @@ public:
 				for (char letter : mapping[digit]) {
 					temp.push_back(combo + letter);
 				}
+			}
