@@ -16,3 +16,4 @@ public:
 
 		string prefix = strs[0];
 		for (int i = 1; i < static_cast<int>(strs.size()); ++i) {
+			while (strs[i].find(prefix) != 0) {
