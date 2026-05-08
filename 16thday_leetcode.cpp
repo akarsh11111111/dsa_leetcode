@@ -27,3 +27,4 @@ public:
 
 				if (sum < target) {
 					++left;
+				} else if (sum > target) {
