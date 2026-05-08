@@ -25,3 +25,4 @@ public:
 			for (string& combo : result) {
 				for (char letter : mapping[digit]) {
 					temp.push_back(combo + letter);
+				}
