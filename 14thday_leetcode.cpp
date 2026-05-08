@@ -19,3 +19,4 @@ public:
 			while (strs[i].find(prefix) != 0) {
 				prefix.pop_back();
 				if (prefix.empty()) {
+					return "";
