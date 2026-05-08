@@ -13,3 +13,4 @@ public:
 		if (strs.empty()) {
 			return "";
 		}
+
