@@ -22,3 +22,4 @@ public:
 				int sum = nums[i] + nums[left] + nums[right];
 
 				if (abs(sum - target) < abs(closest - target)) {
+					closest = sum;
