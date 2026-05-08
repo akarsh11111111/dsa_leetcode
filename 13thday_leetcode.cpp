@@ -20,3 +20,4 @@ public:
 			if (i + 1 < static_cast<int>(s.size()) && value[s[i]] < value[s[i + 1]]) {
 				result -= value[s[i]];
 			} else {
+				result += value[s[i]];
