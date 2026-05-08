@@ -5,3 +5,4 @@
 using namespace std;
 
 // LeetCode #17: Letter Combinations of a Phone Number
+// Return all letter combinations from phone keypad.
