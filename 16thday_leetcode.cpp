@@ -29,3 +29,4 @@ public:
 					++left;
 				} else if (sum > target) {
 					--right;
+				} else {
