@@ -20,3 +20,4 @@ public:
 				prefix.pop_back();
 				if (prefix.empty()) {
 					return "";
+				}
