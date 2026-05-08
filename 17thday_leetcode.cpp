@@ -27,3 +27,4 @@ public:
 					temp.push_back(combo + letter);
 				}
 			}
+			result = temp;
