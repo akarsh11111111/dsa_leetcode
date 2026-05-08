@@ -31,3 +31,4 @@ public:
 					--right;
 				} else {
 					return sum;
+				}
