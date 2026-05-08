@@ -8,3 +8,4 @@ using namespace std;
 // Find triplet closest to target sum.
 // Time Complexity: O(n^2)
 // Space Complexity: O(1) excluding output
+class Solution {
