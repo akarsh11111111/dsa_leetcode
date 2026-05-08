@@ -13,3 +13,4 @@ public:
 		sort(nums.begin(), nums.end());
 		vector<vector<int>> result;
 
+		for (int i = 0; i < static_cast<int>(nums.size()) - 2; ++i) {
