@@ -30,3 +30,4 @@ public:
 			result = temp;
 		}
 
+		return result;
