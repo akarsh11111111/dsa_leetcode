@@ -18,3 +18,4 @@ public:
 			if (nums[i] > 0) break;
 
 			int left = i + 1;
+			int right = nums.size() - 1;
