@@ -21,3 +21,4 @@ public:
 		vector<string> result = {""};
 
 		for (char digit : digits) {
+			vector<string> temp;
