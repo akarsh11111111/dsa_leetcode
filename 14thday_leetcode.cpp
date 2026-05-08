@@ -14,3 +14,4 @@ public:
 			return "";
 		}
 
+		string prefix = strs[0];
