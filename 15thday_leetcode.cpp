@@ -7,3 +7,4 @@ using namespace std;
 // Find all unique triplets that sum to zero.
 // Time Complexity: O(n^2)
 // Space Complexity: O(1) excluding output
+class Solution {
