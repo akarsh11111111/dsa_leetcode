@@ -22,3 +22,4 @@ public:
 
 		for (char digit : digits) {
 			vector<string> temp;
+			for (string& combo : result) {
