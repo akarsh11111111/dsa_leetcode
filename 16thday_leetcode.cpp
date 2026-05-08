@@ -14,3 +14,4 @@ public:
 		sort(nums.begin(), nums.end());
 		int closest = INT_MAX;
 
+		for (int i = 0; i < static_cast<int>(nums.size()) - 2; ++i) {
