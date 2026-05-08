@@ -9,3 +9,4 @@ using namespace std;
 // Space Complexity: O(1) extra
 class Solution {
 public:
+	string longestCommonPrefix(vector<string>& strs) {
