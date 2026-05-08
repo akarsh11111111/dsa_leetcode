@@ -7,3 +7,4 @@ using namespace std;
 // Find longest common prefix among array of strings.
 // Time Complexity: O(n * m)
 // Space Complexity: O(1) extra
+class Solution {
