@@ -20,3 +20,4 @@ public:
 
 		vector<string> result = {""};
 
+		for (char digit : digits) {
