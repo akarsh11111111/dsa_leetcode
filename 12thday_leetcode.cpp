@@ -20,3 +20,4 @@ public:
 			while (num >= p.first) {
 				result += p.second;
 				num -= p.first;
+			}
