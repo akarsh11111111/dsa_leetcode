@@ -16,3 +16,4 @@ public:
 		};
 
 		string result;
+		for (auto& p : values) {
