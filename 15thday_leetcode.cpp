@@ -14,3 +14,4 @@ public:
 		vector<vector<int>> result;
 
 		for (int i = 0; i < static_cast<int>(nums.size()) - 2; ++i) {
+			if (i > 0 && nums[i] == nums[i - 1]) continue;
