@@ -25,3 +25,4 @@ public:
 					closest = sum;
 				}
 
+				if (sum < target) {
