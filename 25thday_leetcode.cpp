@@ -29,3 +29,4 @@ public:
 			ListNode* temp = prev->next;
 			prev->next = kth;
 			prev = temp;
+			temp->next = nextGroup;
