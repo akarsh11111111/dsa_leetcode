@@ -30,3 +30,4 @@ public:
 			prev->next = kth;
 			prev = temp;
 			temp->next = nextGroup;
+		}
