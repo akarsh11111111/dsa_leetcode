@@ -22,3 +22,4 @@ public:
 
 		while (list1 && list2) {
 			if (list1->val <= list2->val) {
+				tail->next = list1;
