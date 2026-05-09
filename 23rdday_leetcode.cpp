@@ -6,3 +6,4 @@ using namespace std;
 // LeetCode #23: Merge k Sorted Lists
 // Merge k sorted linked lists into one sorted list.
 // Time Complexity: O(n log k)
+// Space Complexity: O(k)
