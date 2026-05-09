@@ -14,3 +14,4 @@ struct ListNode {
 	ListNode(int x, ListNode* nextNode) : val(x), next(nextNode) {}
 };
 
+class Solution {
