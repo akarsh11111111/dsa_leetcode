@@ -31,3 +31,4 @@ public:
 			}
 		}
 
+		return st.empty();
