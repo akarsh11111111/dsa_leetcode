@@ -37,3 +37,4 @@ public:
 
 private:
 	ListNode* getKth(ListNode* curr, int k) {
+		while (curr && k > 0) {
