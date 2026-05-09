@@ -27,3 +27,4 @@ public:
 			} else {
 				tail->next = list2;
 				list2 = list2->next;
+			}
