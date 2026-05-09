@@ -26,3 +26,4 @@ public:
 				if ((ch == ')' && top != '(') ||
 					(ch == '}' && top != '{') ||
 					(ch == ']' && top != '[')) {
+					return false;
