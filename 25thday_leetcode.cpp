@@ -21,3 +21,4 @@ public:
 		ListNode* prev = &dummy;
 
 		while (true) {
+			ListNode* kth = getKth(prev, k);
