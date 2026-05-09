@@ -6,3 +6,4 @@ using namespace std;
 // Merge two sorted linked lists into one sorted list.
 // Time Complexity: O(n + m)
 // Space Complexity: O(1)
+struct ListNode {
