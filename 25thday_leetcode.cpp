@@ -24,3 +24,4 @@ public:
 			ListNode* kth = getKth(prev, k);
 			if (!kth) break;
 
+			ListNode* nextGroup = kth->next;
