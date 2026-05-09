@@ -27,3 +27,4 @@ private:
 		}
 
 		if (close < open) {
+			backtrack(result, current + ")", open, close + 1, n);
