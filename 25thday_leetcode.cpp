@@ -42,3 +42,4 @@ private:
 			--k;
 		}
 		return curr;
+	}
