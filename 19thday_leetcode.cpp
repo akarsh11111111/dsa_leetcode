@@ -19,3 +19,4 @@ public:
 	ListNode* removeNthFromEnd(ListNode* head, int n) {
 		ListNode dummy(0, head);
 		ListNode* first = &dummy;
+		ListNode* second = &dummy;
