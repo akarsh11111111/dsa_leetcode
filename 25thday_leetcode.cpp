@@ -54,3 +54,4 @@ private:
 			prev = curr;
 			curr = next;
 		}
+	}
