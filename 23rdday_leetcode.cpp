@@ -30,3 +30,4 @@ public:
 		}
 
 		ListNode dummy(0);
+		ListNode* tail = &dummy;
