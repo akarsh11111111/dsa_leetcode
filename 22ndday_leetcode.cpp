@@ -19,3 +19,4 @@ private:
 	void backtrack(vector<string>& result, string current, int open, int close, int n) {
 		if (current.size() == 2 * n) {
 			result.push_back(current);
+			return;
