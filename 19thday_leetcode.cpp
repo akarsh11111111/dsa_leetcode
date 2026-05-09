@@ -20,3 +20,4 @@ public:
 		ListNode dummy(0, head);
 		ListNode* first = &dummy;
 		ListNode* second = &dummy;
+
