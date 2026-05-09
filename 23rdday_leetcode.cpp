@@ -8,3 +8,4 @@ using namespace std;
 // Time Complexity: O(n log k)
 // Space Complexity: O(k)
 struct ListNode {
+	int val;
