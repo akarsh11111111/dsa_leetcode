@@ -41,3 +41,4 @@ public:
 			if (node->next) {
 				pq.push(node->next);
 			}
+		}
