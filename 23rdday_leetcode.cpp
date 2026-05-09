@@ -4,3 +4,4 @@
 using namespace std;
 
 // LeetCode #23: Merge k Sorted Lists
+// Merge k sorted linked lists into one sorted list.
