@@ -41,3 +41,4 @@ private:
 			curr = curr->next;
 			--k;
 		}
+		return curr;
