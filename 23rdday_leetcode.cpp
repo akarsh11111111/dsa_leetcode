@@ -20,3 +20,4 @@ public:
 	ListNode* mergeKLists(vector<ListNode*>& lists) {
 		if (lists.empty()) return nullptr;
 
+		auto cmp = [](ListNode* a, ListNode* b) {
