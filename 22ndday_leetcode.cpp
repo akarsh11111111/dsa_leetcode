@@ -26,3 +26,4 @@ private:
 			backtrack(result, current + "(", open + 1, close, n);
 		}
 
+		if (close < open) {
