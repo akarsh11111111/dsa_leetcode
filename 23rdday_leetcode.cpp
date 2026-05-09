@@ -37,3 +37,4 @@ public:
 			pq.pop();
 			tail->next = node;
 			tail = tail->next;
+
