@@ -39,3 +39,4 @@ public:
 			tail = tail->next;
 
 			if (node->next) {
+				pq.push(node->next);
