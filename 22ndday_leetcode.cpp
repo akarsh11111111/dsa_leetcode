@@ -22,3 +22,4 @@ private:
 			return;
 		}
 
+		if (open < n) {
