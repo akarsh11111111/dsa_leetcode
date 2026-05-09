@@ -22,3 +22,4 @@ public:
 
 		auto cmp = [](ListNode* a, ListNode* b) {
 			return a->val > b->val;
+		};
