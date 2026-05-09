@@ -40,3 +40,4 @@ private:
 		while (curr && k > 0) {
 			curr = curr->next;
 			--k;
+		}
