@@ -20,3 +20,4 @@ public:
 		ListNode dummy(0, head);
 		ListNode* prev = &dummy;
 
+		while (prev->next && prev->next->next) {
