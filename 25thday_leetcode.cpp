@@ -25,3 +25,4 @@ public:
 			if (!kth) break;
 
 			ListNode* nextGroup = kth->next;
+			reverse(prev->next, kth);
