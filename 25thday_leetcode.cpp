@@ -7,3 +7,4 @@ using namespace std;
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 struct ListNode {
+	int val;
