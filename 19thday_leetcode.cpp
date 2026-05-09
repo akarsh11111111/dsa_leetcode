@@ -32,3 +32,4 @@ public:
 
 		second->next = second->next->next;
 		return dummy.next;
+	}
