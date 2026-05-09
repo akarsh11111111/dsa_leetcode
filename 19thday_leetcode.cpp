@@ -27,3 +27,4 @@ public:
 
 		while (first != nullptr) {
 			first = first->next;
+			second = second->next;
