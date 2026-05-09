@@ -28,3 +28,4 @@ public:
 					(ch == ']' && top != '[')) {
 					return false;
 				}
+			}
