@@ -44,3 +44,4 @@ private:
 		return curr;
 	}
 
+	void reverse(ListNode* head, ListNode* tail) {
