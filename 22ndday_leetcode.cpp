@@ -30,3 +30,4 @@ private:
 			backtrack(result, current + ")", open, close + 1, n);
 		}
 	}
+};
