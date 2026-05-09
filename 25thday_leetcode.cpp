@@ -8,3 +8,4 @@ using namespace std;
 // Space Complexity: O(1)
 struct ListNode {
 	int val;
+	ListNode* next;
