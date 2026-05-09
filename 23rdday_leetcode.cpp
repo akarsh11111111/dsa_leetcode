@@ -38,3 +38,4 @@ public:
 			tail->next = node;
 			tail = tail->next;
 
+			if (node->next) {
