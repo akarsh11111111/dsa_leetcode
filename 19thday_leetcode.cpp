@@ -25,3 +25,4 @@ public:
 			first = first->next;
 		}
 
+		while (first != nullptr) {
