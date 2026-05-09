@@ -7,3 +7,4 @@ using namespace std;
 // Generate all combinations of well-formed parentheses.
 // Time Complexity: O(4^n / sqrt(n))
 // Space Complexity: O(n)
+class Solution {
