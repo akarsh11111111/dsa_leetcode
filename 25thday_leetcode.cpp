@@ -49,3 +49,4 @@ private:
 		ListNode* curr = head;
 
 		while (prev != tail) {
+			ListNode* next = curr->next;
