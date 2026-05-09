@@ -23,3 +23,4 @@ public:
 				char top = st.top();
 				st.pop();
 
+				if ((ch == ')' && top != '(') ||
