@@ -28,3 +28,4 @@ public:
 			reverse(prev->next, kth);
 			ListNode* temp = prev->next;
 			prev->next = kth;
+			prev = temp;
