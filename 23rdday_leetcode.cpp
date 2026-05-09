@@ -26,3 +26,4 @@ public:
 		priority_queue<ListNode*, vector<ListNode*>, decltype(cmp)> pq(cmp);
 
 		for (ListNode* list : lists) {
+			if (list) pq.push(list);
