@@ -18,3 +18,4 @@ class Solution {
 public:
 	ListNode* swapPairs(ListNode* head) {
 		ListNode dummy(0, head);
+		ListNode* prev = &dummy;
