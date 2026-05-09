@@ -11,3 +11,4 @@ class Solution {
 public:
 	vector<string> generateParenthesis(int n) {
 		vector<string> result;
+		backtrack(result, "", 0, 0, n);
