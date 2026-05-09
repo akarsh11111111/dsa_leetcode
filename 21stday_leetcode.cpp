@@ -20,3 +20,4 @@ public:
 		ListNode dummy(0);
 		ListNode* tail = &dummy;
 
+		while (list1 && list2) {
