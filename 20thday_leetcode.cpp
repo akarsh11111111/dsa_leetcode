@@ -15,3 +15,4 @@ public:
 		for (char ch : s) {
 			if (ch == '(' || ch == '{' || ch == '[') {
 				st.push(ch);
+			} else {
