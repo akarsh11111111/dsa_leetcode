@@ -26,3 +26,4 @@ public:
 
 			ListNode* nextGroup = kth->next;
 			reverse(prev->next, kth);
+			ListNode* temp = prev->next;
