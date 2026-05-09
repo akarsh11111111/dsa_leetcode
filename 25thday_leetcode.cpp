@@ -48,3 +48,4 @@ private:
 		ListNode* prev = tail->next;
 		ListNode* curr = head;
 
+		while (prev != tail) {
