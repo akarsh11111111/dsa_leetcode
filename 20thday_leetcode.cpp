@@ -7,3 +7,4 @@ using namespace std;
 // Determine if input string has valid matching brackets.
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+class Solution {
