@@ -36,3 +36,4 @@ public:
 			ListNode* node = pq.top();
 			pq.pop();
 			tail->next = node;
+			tail = tail->next;
