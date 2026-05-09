@@ -31,3 +31,4 @@ public:
 			prev = first;
 		}
 
+		return dummy.next;
