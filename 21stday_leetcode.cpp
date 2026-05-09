@@ -19,3 +19,4 @@ public:
 	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
 		ListNode dummy(0);
 		ListNode* tail = &dummy;
+
