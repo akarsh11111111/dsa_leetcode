@@ -53,3 +53,4 @@ private:
 			curr->next = prev;
 			prev = curr;
 			curr = next;
+		}
