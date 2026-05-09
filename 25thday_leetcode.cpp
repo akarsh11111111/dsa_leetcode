@@ -32,3 +32,4 @@ public:
 			temp->next = nextGroup;
 		}
 
+		return dummy.next;
