@@ -7,3 +7,4 @@ using namespace std;
 // Merge k sorted linked lists into one sorted list.
 // Time Complexity: O(n log k)
 // Space Complexity: O(k)
+struct ListNode {
