@@ -30,3 +30,4 @@ public:
 			second = second->next;
 		}
 
+		second->next = second->next->next;
