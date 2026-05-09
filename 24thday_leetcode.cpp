@@ -16,3 +16,4 @@ struct ListNode {
 
 class Solution {
 public:
+	ListNode* swapPairs(ListNode* head) {
