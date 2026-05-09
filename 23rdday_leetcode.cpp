@@ -21,3 +21,4 @@ public:
 		if (lists.empty()) return nullptr;
 
 		auto cmp = [](ListNode* a, ListNode* b) {
+			return a->val > b->val;
