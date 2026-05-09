@@ -25,3 +25,4 @@ private:
 		if (open < n) {
 			backtrack(result, current + "(", open + 1, close, n);
 		}
+
