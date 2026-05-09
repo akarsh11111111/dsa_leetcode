@@ -31,3 +31,4 @@ public:
 			tail = tail->next;
 		}
 
+		tail->next = list1 ? list1 : list2;
