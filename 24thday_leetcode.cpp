@@ -24,3 +24,4 @@ public:
 			ListNode* first = prev->next;
 			ListNode* second = prev->next->next;
 
+			first->next = second->next;
