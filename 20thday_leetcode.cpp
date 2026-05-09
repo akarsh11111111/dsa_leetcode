@@ -33,3 +33,4 @@ public:
 
 		return st.empty();
 	}
+};
