@@ -6,3 +6,4 @@ using namespace std;
 // Swap adjacent nodes in a linked list.
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+struct ListNode {
