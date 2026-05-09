@@ -20,3 +20,4 @@ private:
 		if (current.size() == 2 * n) {
 			result.push_back(current);
 			return;
+		}
