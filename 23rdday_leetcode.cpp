@@ -28,3 +28,4 @@ public:
 		for (ListNode* list : lists) {
 			if (list) pq.push(list);
 		}
+
