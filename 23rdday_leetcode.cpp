@@ -35,3 +35,4 @@ public:
 		while (!pq.empty()) {
 			ListNode* node = pq.top();
 			pq.pop();
+			tail->next = node;
