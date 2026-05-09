@@ -13,3 +13,4 @@ public:
 		stack<char> st;
 
 		for (char ch : s) {
+			if (ch == '(' || ch == '{' || ch == '[') {
