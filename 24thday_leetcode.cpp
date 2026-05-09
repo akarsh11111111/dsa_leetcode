@@ -29,3 +29,4 @@ public:
 			prev->next = second;
 
 			prev = first;
+		}
