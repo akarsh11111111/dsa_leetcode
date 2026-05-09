@@ -21,3 +21,4 @@ public:
 		ListNode* prev = &dummy;
 
 		while (prev->next && prev->next->next) {
+			ListNode* first = prev->next;
