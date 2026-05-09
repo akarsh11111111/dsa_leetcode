@@ -23,3 +23,4 @@ public:
 
 		for (int i = 0; i <= n; ++i) {
 			first = first->next;
+		}
