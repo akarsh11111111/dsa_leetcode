@@ -18,3 +18,4 @@ public:
 			} else {
 				if (st.empty()) {
 					return false;
+				}
