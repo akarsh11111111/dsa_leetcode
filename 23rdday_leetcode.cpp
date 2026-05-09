@@ -33,3 +33,4 @@ public:
 		ListNode* tail = &dummy;
 
 		while (!pq.empty()) {
+			ListNode* node = pq.top();
