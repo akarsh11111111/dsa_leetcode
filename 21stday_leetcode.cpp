@@ -34,3 +34,4 @@ public:
 		tail->next = list1 ? list1 : list2;
 		return dummy.next;
 	}
+};
