@@ -22,3 +22,4 @@ public:
 
 		while (true) {
 			ListNode* kth = getKth(prev, k);
+			if (!kth) break;
