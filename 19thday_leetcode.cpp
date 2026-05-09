@@ -21,3 +21,4 @@ public:
 		ListNode* first = &dummy;
 		ListNode* second = &dummy;
 
+		for (int i = 0; i <= n; ++i) {
