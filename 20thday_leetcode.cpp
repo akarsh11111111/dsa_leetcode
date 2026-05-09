@@ -9,3 +9,4 @@ using namespace std;
 // Space Complexity: O(n)
 class Solution {
 public:
+	bool isValid(string s) {
