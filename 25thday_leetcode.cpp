@@ -13,3 +13,4 @@ struct ListNode {
 	explicit ListNode(int x) : val(x), next(nullptr) {}
 	ListNode(int x, ListNode* nextNode) : val(x), next(nextNode) {}
 };
+
