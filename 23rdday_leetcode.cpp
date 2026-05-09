@@ -29,3 +29,4 @@ public:
 			if (list) pq.push(list);
 		}
 
+		ListNode dummy(0);
