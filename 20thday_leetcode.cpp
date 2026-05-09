@@ -27,3 +27,4 @@ public:
 					(ch == '}' && top != '{') ||
 					(ch == ']' && top != '[')) {
 					return false;
+				}
