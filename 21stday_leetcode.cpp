@@ -25,3 +25,4 @@ public:
 				tail->next = list1;
 				list1 = list1->next;
 			} else {
+				tail->next = list2;
