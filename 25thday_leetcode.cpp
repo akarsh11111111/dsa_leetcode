@@ -46,3 +46,4 @@ private:
 
 	void reverse(ListNode* head, ListNode* tail) {
 		ListNode* prev = tail->next;
+		ListNode* curr = head;
