@@ -17,3 +17,4 @@ public:
 				st.push(ch);
 			} else {
 				if (st.empty()) {
+					return false;
