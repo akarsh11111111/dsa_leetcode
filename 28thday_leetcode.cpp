@@ -14,3 +14,4 @@ public:
 		int n = haystack.size();
 		int m = needle.size();
 
+		for (int i = 0; i + m <= n; ++i) {
