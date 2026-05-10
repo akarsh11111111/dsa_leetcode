@@ -30,3 +30,4 @@ public:
 			result += count;
 		}
 
+		return (dividend < 0) ^ (divisor < 0) ? -result : result;
