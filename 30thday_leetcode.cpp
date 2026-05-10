@@ -19,3 +19,4 @@ public:
 			wordCount[word]++;
 		}
 
+		int wordLen = words[0].size();
