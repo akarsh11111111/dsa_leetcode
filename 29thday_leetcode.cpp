@@ -27,3 +27,4 @@ public:
 			}
 
 			a -= temp;
+			result += count;
