@@ -6,3 +6,4 @@ using namespace std;
 // Divide without using multiplication, division or modulo.
 // Time Complexity: O(log n)
 // Space Complexity: O(1)
+class Solution {
