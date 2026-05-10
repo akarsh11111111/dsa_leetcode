@@ -8,3 +8,4 @@ using namespace std;
 // Find all indices where a substring consisting of all words appears.
 // Time Complexity: O(n * m)
 // Space Complexity: O(k)
+class Solution {
