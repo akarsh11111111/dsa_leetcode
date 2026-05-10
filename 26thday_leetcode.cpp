@@ -9,3 +9,4 @@ using namespace std;
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
+		if (nums.empty()) return 0;
