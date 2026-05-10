@@ -19,3 +19,4 @@ public:
 			while (j < m && haystack[i + j] == needle[j]) {
 				++j;
 			}
+			if (j == m) return i;
