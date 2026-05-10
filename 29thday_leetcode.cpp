@@ -23,3 +23,4 @@ public:
 
 			while (a >= temp << 1) {
 				temp <<= 1;
+				count <<= 1;
