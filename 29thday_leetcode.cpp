@@ -22,3 +22,4 @@ public:
 			int count = 1;
 
 			while (a >= temp << 1) {
+				temp <<= 1;
