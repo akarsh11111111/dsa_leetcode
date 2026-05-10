@@ -16,3 +16,4 @@ public:
 
 		unordered_map<string, int> wordCount;
 		for (const string& word : words) {
+			wordCount[word]++;
