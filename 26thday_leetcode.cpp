@@ -11,3 +11,4 @@ public:
 	int removeDuplicates(vector<int>& nums) {
 		if (nums.empty()) return 0;
 
+		int write = 1;
