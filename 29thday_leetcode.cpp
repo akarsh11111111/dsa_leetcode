@@ -17,3 +17,4 @@ public:
 		long long b = abs(static_cast<long long>(divisor));
 		int result = 0;
 
+		while (a >= b) {
