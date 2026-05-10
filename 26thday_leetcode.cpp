@@ -12,3 +12,4 @@ public:
 		if (nums.empty()) return 0;
 
 		int write = 1;
+		for (int read = 1; read < static_cast<int>(nums.size()); ++read) {
