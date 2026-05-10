@@ -23,3 +23,4 @@ public:
 		int totalLen = wordLen * words.size();
 
 		for (int i = 0; i + totalLen <= static_cast<int>(s.size()); ++i) {
+			unordered_map<string, int> seen;
