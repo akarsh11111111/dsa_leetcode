@@ -18,3 +18,4 @@ public:
 		for (const string& word : words) {
 			wordCount[word]++;
 		}
+
