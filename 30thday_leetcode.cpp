@@ -32,3 +32,4 @@ public:
 				if (j == static_cast<int>(words.size()) - 1) {
 					result.push_back(i);
 				}
+			}
