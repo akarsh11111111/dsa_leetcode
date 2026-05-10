@@ -29,3 +29,4 @@ public:
 				if (wordCount.find(word) == wordCount.end()) break;
 				seen[word]++;
 				if (seen[word] > wordCount[word]) break;
+				if (j == static_cast<int>(words.size()) - 1) {
