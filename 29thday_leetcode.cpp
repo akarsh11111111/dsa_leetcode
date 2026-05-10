@@ -13,3 +13,4 @@ public:
 			return INT_MAX;
 		}
 
+		long long a = abs(static_cast<long long>(dividend));
