@@ -12,3 +12,4 @@ public:
 		if (needle.empty()) return 0;
 
 		int n = haystack.size();
+		int m = needle.size();
