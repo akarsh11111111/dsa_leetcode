@@ -25,3 +25,4 @@ public:
 				temp <<= 1;
 				count <<= 1;
 			}
+
