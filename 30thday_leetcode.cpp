@@ -15,3 +15,4 @@ public:
 		if (words.empty()) return result;
 
 		unordered_map<string, int> wordCount;
+		for (const string& word : words) {
