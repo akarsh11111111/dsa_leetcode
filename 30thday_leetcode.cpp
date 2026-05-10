@@ -24,3 +24,4 @@ public:
 
 		for (int i = 0; i + totalLen <= static_cast<int>(s.size()); ++i) {
 			unordered_map<string, int> seen;
+			for (int j = 0; j < static_cast<int>(words.size()); ++j) {
