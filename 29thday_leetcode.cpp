@@ -18,3 +18,4 @@ public:
 		int result = 0;
 
 		while (a >= b) {
+			long long temp = b;
