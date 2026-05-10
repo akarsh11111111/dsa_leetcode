@@ -31,3 +31,4 @@ public:
 				if (seen[word] > wordCount[word]) break;
 				if (j == static_cast<int>(words.size()) - 1) {
 					result.push_back(i);
+				}
