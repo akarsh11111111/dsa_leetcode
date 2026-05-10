@@ -8,3 +8,4 @@ using namespace std;
 // Space Complexity: O(1)
 class Solution {
 public:
+	int strStr(string haystack, string needle) {
