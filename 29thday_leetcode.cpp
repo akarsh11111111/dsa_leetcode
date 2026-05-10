@@ -14,3 +14,4 @@ public:
 		}
 
 		long long a = abs(static_cast<long long>(dividend));
+		long long b = abs(static_cast<long long>(divisor));
