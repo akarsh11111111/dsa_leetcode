@@ -20,3 +20,4 @@ public:
 				++j;
 			}
 			if (j == m) return i;
+		}
