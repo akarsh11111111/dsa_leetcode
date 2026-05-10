@@ -20,3 +20,4 @@ public:
 		while (a >= b) {
 			long long temp = b;
 			int count = 1;
+
