@@ -10,3 +10,4 @@ using namespace std;
 // Space Complexity: O(k)
 class Solution {
 public:
+	vector<int> findSubstring(string s, vector<string>& words) {
