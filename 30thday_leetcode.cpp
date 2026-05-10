@@ -12,3 +12,4 @@ class Solution {
 public:
 	vector<int> findSubstring(string s, vector<string>& words) {
 		vector<int> result;
+		if (words.empty()) return result;
