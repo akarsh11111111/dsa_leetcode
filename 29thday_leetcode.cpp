@@ -21,3 +21,4 @@ public:
 			long long temp = b;
 			int count = 1;
 
+			while (a >= temp << 1) {
