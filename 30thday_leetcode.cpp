@@ -14,3 +14,4 @@ public:
 		vector<int> result;
 		if (words.empty()) return result;
 
+		unordered_map<string, int> wordCount;
