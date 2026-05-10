@@ -26,3 +26,4 @@ public:
 				count <<= 1;
 			}
 
+			a -= temp;
