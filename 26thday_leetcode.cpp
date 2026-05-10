@@ -17,3 +17,4 @@ public:
 				nums[write] = nums[read];
 				++write;
 			}
+		}
