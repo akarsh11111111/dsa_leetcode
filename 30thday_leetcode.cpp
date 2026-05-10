@@ -22,3 +22,4 @@ public:
 		int wordLen = words[0].size();
 		int totalLen = wordLen * words.size();
 
+		for (int i = 0; i + totalLen <= static_cast<int>(s.size()); ++i) {
