@@ -6,3 +6,4 @@ using namespace std;
 // Remove duplicates in-place, return new length.
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+class Solution {
