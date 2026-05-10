@@ -15,3 +15,4 @@ public:
 			if (nums[read] != val) {
 				nums[write] = nums[read];
 				++write;
+			}
