@@ -27,3 +27,4 @@ public:
 			for (int j = 0; j < static_cast<int>(words.size()); ++j) {
 				string word = s.substr(i + j * wordLen, wordLen);
 				if (wordCount.find(word) == wordCount.end()) break;
+				seen[word]++;
