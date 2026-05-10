@@ -12,3 +12,4 @@ public:
 		int write = 0;
 
 		for (int read = 0; read < static_cast<int>(nums.size()); ++read) {
+			if (nums[read] != val) {
