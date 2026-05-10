@@ -11,3 +11,4 @@ public:
 	int removeElement(vector<int>& nums, int val) {
 		int write = 0;
 
+		for (int read = 0; read < static_cast<int>(nums.size()); ++read) {
