@@ -14,3 +14,4 @@ public:
 		for (int read = 0; read < static_cast<int>(nums.size()); ++read) {
 			if (nums[read] != val) {
 				nums[write] = nums[read];
+				++write;
