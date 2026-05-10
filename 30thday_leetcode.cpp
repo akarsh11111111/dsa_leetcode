@@ -28,3 +28,4 @@ public:
 				string word = s.substr(i + j * wordLen, wordLen);
 				if (wordCount.find(word) == wordCount.end()) break;
 				seen[word]++;
+				if (seen[word] > wordCount[word]) break;
