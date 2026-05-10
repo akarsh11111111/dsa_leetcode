@@ -20,3 +20,4 @@ public:
 		}
 
 		int wordLen = words[0].size();
+		int totalLen = wordLen * words.size();
