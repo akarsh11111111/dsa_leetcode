@@ -21,3 +21,4 @@ public:
 			while (j > i && nums[j] <= nums[i]) {
 				--j;
 			}
+			swap(nums[i], nums[j]);
