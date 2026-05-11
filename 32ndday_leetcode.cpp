@@ -14,3 +14,4 @@ public:
 
 		for (int i = 1; i < static_cast<int>(s.size()); ++i) {
 			if (s[i] == ')') {
+				if (s[i - 1] == '(') {
