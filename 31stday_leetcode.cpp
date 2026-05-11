@@ -24,3 +24,4 @@ public:
 			swap(nums[i], nums[j]);
 		}
 
+		reverse(nums.begin() + i + 1, nums.end());
