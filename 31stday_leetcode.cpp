@@ -14,3 +14,4 @@ public:
 
 		while (i >= 0 && nums[i] >= nums[i + 1]) {
 			--i;
+		}
