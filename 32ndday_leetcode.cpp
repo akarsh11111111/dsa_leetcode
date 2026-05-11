@@ -13,3 +13,4 @@ public:
 		int maxLen = 0;
 
 		for (int i = 1; i < static_cast<int>(s.size()); ++i) {
+			if (s[i] == ')') {
