@@ -17,3 +17,4 @@ public:
 		}
 
 		if (i >= 0) {
+			int j = nums.size() - 1;
