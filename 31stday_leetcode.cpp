@@ -22,3 +22,4 @@ public:
 				--j;
 			}
 			swap(nums[i], nums[j]);
+		}
