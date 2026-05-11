@@ -20,3 +20,4 @@ public:
 			int j = nums.size() - 1;
 			while (j > i && nums[j] <= nums[i]) {
 				--j;
+			}
