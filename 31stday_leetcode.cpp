@@ -12,3 +12,4 @@ public:
 	void nextPermutation(vector<int>& nums) {
 		int i = nums.size() - 2;
 
+		while (i >= 0 && nums[i] >= nums[i + 1]) {
