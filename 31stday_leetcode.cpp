@@ -25,3 +25,4 @@ public:
 		}
 
 		reverse(nums.begin() + i + 1, nums.end());
+	}
