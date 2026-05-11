@@ -15,3 +15,4 @@ public:
 		for (int i = 1; i < static_cast<int>(s.size()); ++i) {
 			if (s[i] == ')') {
 				if (s[i - 1] == '(') {
+					dp[i] = (i >= 2 ? dp[i - 2] : 0) + 2;
