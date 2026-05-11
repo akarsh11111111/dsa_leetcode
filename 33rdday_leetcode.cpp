@@ -23,3 +23,4 @@ public:
 				} else {
 					left = mid + 1;
 				}
+			} else {
