@@ -7,3 +7,4 @@ using namespace std;
 // Modify array in-place to next lexicographic permutation.
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+class Solution {
