@@ -24,3 +24,4 @@ public:
 					left = mid + 1;
 				}
 			} else {
+				if (nums[mid] < target && target <= nums[right]) {
