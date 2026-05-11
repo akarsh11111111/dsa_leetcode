@@ -21,3 +21,4 @@ public:
 				if (nums[left] <= target && target < nums[mid]) {
 					right = mid - 1;
 				} else {
+					left = mid + 1;
