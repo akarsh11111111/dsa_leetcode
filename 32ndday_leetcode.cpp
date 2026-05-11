@@ -12,3 +12,4 @@ public:
 		vector<int> dp(s.size(), 0);
 		int maxLen = 0;
 
+		for (int i = 1; i < static_cast<int>(s.size()); ++i) {
