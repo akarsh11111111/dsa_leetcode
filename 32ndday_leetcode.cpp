@@ -11,3 +11,4 @@ public:
 	int longestValidParentheses(string s) {
 		vector<int> dp(s.size(), 0);
 		int maxLen = 0;
+
