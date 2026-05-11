@@ -6,3 +6,4 @@ using namespace std;
 // Find length of longest valid parentheses substring.
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+class Solution {
