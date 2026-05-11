@@ -20,3 +20,4 @@ public:
 			if (nums[left] <= nums[mid]) {
 				if (nums[left] <= target && target < nums[mid]) {
 					right = mid - 1;
+				} else {
