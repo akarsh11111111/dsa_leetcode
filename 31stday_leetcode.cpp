@@ -10,3 +10,4 @@ using namespace std;
 class Solution {
 public:
 	void nextPermutation(vector<int>& nums) {
+		int i = nums.size() - 2;
