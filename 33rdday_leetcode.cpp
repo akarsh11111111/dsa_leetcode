@@ -22,3 +22,4 @@ public:
 					right = mid - 1;
 				} else {
 					left = mid + 1;
+				}
