@@ -13,3 +13,4 @@ public:
 		int i = nums.size() - 2;
 
 		while (i >= 0 && nums[i] >= nums[i + 1]) {
+			--i;
