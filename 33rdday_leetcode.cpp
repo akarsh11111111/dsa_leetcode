@@ -30,3 +30,4 @@ public:
 					right = mid - 1;
 				}
 			}
+		}
