@@ -51,3 +51,4 @@ private:
 		}
 
 		return result;
+	}
