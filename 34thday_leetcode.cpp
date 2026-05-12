@@ -48,3 +48,4 @@ private:
 			} else {
 				right = mid - 1;
 			}
+		}
