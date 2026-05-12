@@ -20,3 +20,4 @@ private:
 		int result = -1;
 
 		while (left <= right) {
+			int mid = left + (right - left) / 2;
