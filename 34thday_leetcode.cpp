@@ -12,3 +12,4 @@ public:
 		int left = findFirst(nums, target);
 		int right = findLast(nums, target);
 		return {left, right};
+	}
