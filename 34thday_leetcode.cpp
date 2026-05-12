@@ -19,3 +19,4 @@ private:
 		int left = 0, right = nums.size() - 1;
 		int result = -1;
 
+		while (left <= right) {
