@@ -6,3 +6,4 @@ using namespace std;
 // Find first and last position of target in sorted array.
 // Time Complexity: O(log n)
 // Space Complexity: O(1)
+class Solution {
