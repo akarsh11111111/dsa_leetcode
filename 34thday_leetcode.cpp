@@ -34,3 +34,4 @@ private:
 		return result;
 	}
 
+	int findLast(vector<int>& nums, int target) {
