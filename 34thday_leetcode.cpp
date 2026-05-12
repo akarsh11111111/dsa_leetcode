@@ -44,3 +44,4 @@ private:
 				result = mid;
 				left = mid + 1;
 			} else if (nums[mid] < target) {
+				left = mid + 1;
