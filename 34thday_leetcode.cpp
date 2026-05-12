@@ -26,3 +26,4 @@ private:
 				right = mid - 1;
 			} else if (nums[mid] < target) {
 				left = mid + 1;
+			} else {
