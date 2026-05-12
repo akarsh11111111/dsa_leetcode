@@ -19,3 +19,4 @@ public:
 			} else {
 				right = mid;
 			}
+		}
