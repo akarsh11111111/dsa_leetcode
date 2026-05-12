@@ -15,3 +15,4 @@ public:
 	}
 
 private:
+	int findFirst(vector<int>& nums, int target) {
