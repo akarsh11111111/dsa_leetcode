@@ -50,3 +50,4 @@ private:
 			}
 		}
 
+		return result;
