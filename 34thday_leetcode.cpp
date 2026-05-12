@@ -16,3 +16,4 @@ public:
 
 private:
 	int findFirst(vector<int>& nums, int target) {
+		int left = 0, right = nums.size() - 1;
