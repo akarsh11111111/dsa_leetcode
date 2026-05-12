@@ -12,3 +12,4 @@ public:
 		int left = 0;
 		int right = nums.size();
 
+		while (left < right) {
