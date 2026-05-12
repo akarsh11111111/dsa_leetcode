@@ -13,3 +13,4 @@ public:
 		int right = nums.size();
 
 		while (left < right) {
+			int mid = left + (right - left) / 2;
