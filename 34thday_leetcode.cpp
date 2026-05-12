@@ -24,3 +24,4 @@ private:
 			if (nums[mid] == target) {
 				result = mid;
 				right = mid - 1;
+			} else if (nums[mid] < target) {
