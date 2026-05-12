@@ -52,3 +52,4 @@ private:
 
 		return result;
 	}
+};
