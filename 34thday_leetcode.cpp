@@ -11,3 +11,4 @@ public:
 	vector<int> searchRange(vector<int>& nums, int target) {
 		int left = findFirst(nums, target);
 		int right = findLast(nums, target);
+		return {left, right};
