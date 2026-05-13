@@ -21,3 +21,4 @@ public:
 				int num = board[i][j] - '1';
 				int boxIdx = (i / 3) * 3 + (j / 3);
 
+				if (rows[i][num] || cols[j][num] || boxes[boxIdx][num]) {
