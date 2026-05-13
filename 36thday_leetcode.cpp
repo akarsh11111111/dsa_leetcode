@@ -7,3 +7,4 @@ using namespace std;
 // Check if 9x9 Sudoku board is valid.
 // Time Complexity: O(1) - constant 81 cells
 // Space Complexity: O(1)
+class Solution {
