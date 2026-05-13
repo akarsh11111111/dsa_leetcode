@@ -20,3 +20,4 @@ public:
 
 				int num = board[i][j] - '1';
 				int boxIdx = (i / 3) * 3 + (j / 3);
+
