@@ -15,3 +15,4 @@ public:
 		vector<vector<bool>> boxes(9, vector<bool>(9, false));
 
 		for (int i = 0; i < 9; ++i) {
+			for (int j = 0; j < 9; ++j) {
