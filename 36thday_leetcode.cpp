@@ -18,3 +18,4 @@ public:
 			for (int j = 0; j < 9; ++j) {
 				if (board[i][j] == '.') continue;
 
+				int num = board[i][j] - '1';
