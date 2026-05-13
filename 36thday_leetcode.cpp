@@ -27,3 +27,4 @@ public:
 
 				rows[i][num] = true;
 				cols[j][num] = true;
+				boxes[boxIdx][num] = true;
