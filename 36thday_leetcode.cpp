@@ -29,3 +29,4 @@ public:
 				cols[j][num] = true;
 				boxes[boxIdx][num] = true;
 			}
+		}
