@@ -22,3 +22,4 @@ public:
 				int boxIdx = (i / 3) * 3 + (j / 3);
 
 				if (rows[i][num] || cols[j][num] || boxes[boxIdx][num]) {
+					return false;
