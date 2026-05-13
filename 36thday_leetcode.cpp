@@ -25,3 +25,4 @@ public:
 					return false;
 				}
 
+				rows[i][num] = true;
