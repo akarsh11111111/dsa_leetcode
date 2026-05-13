@@ -24,3 +24,4 @@ public:
 				if (rows[i][num] || cols[j][num] || boxes[boxIdx][num]) {
 					return false;
 				}
+
