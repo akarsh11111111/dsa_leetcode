@@ -19,3 +19,4 @@ private:
 				if (board[i][j] != '.') continue;
 
 				for (char num = '1'; num <= '9'; ++num) {
+					if (isValid(board, i, j, num)) {
