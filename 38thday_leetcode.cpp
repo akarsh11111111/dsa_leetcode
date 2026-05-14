@@ -6,3 +6,4 @@ using namespace std;
 // Generate count-and-say sequence.
 // Time Complexity: O(n * len)
 // Space Complexity: O(len)
+class Solution {
