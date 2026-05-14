@@ -11,3 +11,4 @@ public:
 	string countAndSay(int n) {
 		string result = "1";
 
+		for (int i = 1; i < n; ++i) {
