@@ -22,3 +22,4 @@ private:
 	string nextSequence(string seq) {
 		string result;
 		int count = 1;
+
