@@ -14,3 +14,4 @@ public:
 
 private:
 	bool backtrack(vector<vector<char>>& board) {
+		for (int i = 0; i < 9; ++i) {
