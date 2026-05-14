@@ -23,3 +23,4 @@ private:
 		string result;
 		int count = 1;
 
+		for (int i = 0; i < static_cast<int>(seq.size()); ++i) {
