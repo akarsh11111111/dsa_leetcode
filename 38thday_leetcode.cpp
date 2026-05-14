@@ -25,3 +25,4 @@ private:
 
 		for (int i = 0; i < static_cast<int>(seq.size()); ++i) {
 			if (i + 1 < static_cast<int>(seq.size()) && seq[i] == seq[i + 1]) {
+				++count;
