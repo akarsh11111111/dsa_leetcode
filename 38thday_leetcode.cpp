@@ -27,3 +27,4 @@ private:
 			if (i + 1 < static_cast<int>(seq.size()) && seq[i] == seq[i + 1]) {
 				++count;
 			} else {
+				result += to_string(count) + seq[i];
