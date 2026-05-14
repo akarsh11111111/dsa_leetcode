@@ -6,3 +6,4 @@ using namespace std;
 // Solve a 9x9 Sudoku board using backtracking.
 // Time Complexity: O(9^(9*9)) worst case
 // Space Complexity: O(1) excluding recursion
+class Solution {
