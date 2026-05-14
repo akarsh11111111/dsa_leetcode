@@ -12,3 +12,4 @@ public:
 		string result = "1";
 
 		for (int i = 1; i < n; ++i) {
+			result = nextSequence(result);
