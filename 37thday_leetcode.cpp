@@ -18,3 +18,4 @@ private:
 			for (int j = 0; j < 9; ++j) {
 				if (board[i][j] != '.') continue;
 
+				for (char num = '1'; num <= '9'; ++num) {
