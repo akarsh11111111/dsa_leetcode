@@ -10,3 +10,4 @@ class Solution {
 public:
 	string countAndSay(int n) {
 		string result = "1";
+
