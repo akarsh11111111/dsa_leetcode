@@ -13,3 +13,4 @@ public:
 	}
 
 private:
+	bool backtrack(vector<vector<char>>& board) {
