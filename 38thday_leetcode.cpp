@@ -8,3 +8,4 @@ using namespace std;
 // Space Complexity: O(len)
 class Solution {
 public:
+	string countAndSay(int n) {
