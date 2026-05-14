@@ -28,3 +28,4 @@ private:
 				++count;
 			} else {
 				result += to_string(count) + seq[i];
+				count = 1;
