@@ -30,3 +30,4 @@ private:
 				result += to_string(count) + seq[i];
 				count = 1;
 			}
+		}
