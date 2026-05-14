@@ -15,3 +15,4 @@ public:
 			result = nextSequence(result);
 		}
 
+		return result;
