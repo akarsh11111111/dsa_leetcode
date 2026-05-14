@@ -19,3 +19,4 @@ public:
 	}
 
 private:
+	string nextSequence(string seq) {
