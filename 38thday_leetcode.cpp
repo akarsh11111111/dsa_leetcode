@@ -34,3 +34,4 @@ private:
 
 		return result;
 	}
+};
