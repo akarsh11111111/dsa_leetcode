@@ -20,3 +20,4 @@ public:
 
 private:
 	string nextSequence(string seq) {
+		string result;
