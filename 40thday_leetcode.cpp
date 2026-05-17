@@ -4,3 +4,4 @@ using namespace std;
 
 // LeetCode #40: Combination Sum II
 // Find combinations (each element used once) that sum to target.
+// Time Complexity: O(2^n)
