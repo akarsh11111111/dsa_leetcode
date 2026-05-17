@@ -29,3 +29,4 @@ private:
 			if (i > start && candidates[i] == candidates[i - 1]) continue;
 
 			path.push_back(candidates[i]);
+			backtrack(candidates, target - candidates[i], i + 1, path, result);
