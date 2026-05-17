@@ -23,3 +23,4 @@ private:
 			return;
 		}
 
+		if (target < 0) return;
