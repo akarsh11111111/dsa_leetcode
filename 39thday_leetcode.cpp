@@ -24,3 +24,4 @@ private:
 
 		if (target < 0) return;
 
+		for (int i = start; i < static_cast<int>(candidates.size()); ++i) {
