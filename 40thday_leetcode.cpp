@@ -19,3 +19,4 @@ public:
 private:
 	void backtrack(vector<int>& candidates, int target, int start, vector<int>& path, vector<vector<int>>& result) {
 		if (target == 0) {
+			result.push_back(path);
