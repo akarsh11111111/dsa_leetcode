@@ -7,3 +7,4 @@ using namespace std;
 // Time Complexity: O(N^(T/M))
 // Space Complexity: O(T/M)
 class Solution {
+public:
