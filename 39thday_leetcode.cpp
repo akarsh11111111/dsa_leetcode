@@ -26,3 +26,8 @@ private:
 
 		for (int i = start; i < static_cast<int>(candidates.size()); ++i) {
 			path.push_back(candidates[i]);
+			backtrack(candidates, target - candidates[i], i, path, result);
+			path.pop_back();
+		}
+	}
+};
