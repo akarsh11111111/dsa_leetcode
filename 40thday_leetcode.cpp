@@ -28,3 +28,4 @@ private:
 		for (int i = start; i < static_cast<int>(candidates.size()); ++i) {
 			if (i > start && candidates[i] == candidates[i - 1]) continue;
 
+			path.push_back(candidates[i]);
