@@ -20,3 +20,4 @@ private:
 		if (target == 0) {
 			result.push_back(path);
 			return;
+		}
