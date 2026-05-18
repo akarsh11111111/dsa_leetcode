@@ -15,3 +15,4 @@ public:
 		vector<int> leftMax(n), rightMax(n);
 
 		leftMax[0] = height[0];
+		for (int i = 1; i < n; ++i) {
