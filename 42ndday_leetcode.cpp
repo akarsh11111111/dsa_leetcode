@@ -17,3 +17,4 @@ public:
 		leftMax[0] = height[0];
 		for (int i = 1; i < n; ++i) {
 			leftMax[i] = max(leftMax[i - 1], height[i]);
+		}
