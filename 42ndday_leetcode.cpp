@@ -24,3 +24,4 @@ public:
 			rightMax[i] = max(rightMax[i + 1], height[i]);
 		}
 
+		int water = 0;
