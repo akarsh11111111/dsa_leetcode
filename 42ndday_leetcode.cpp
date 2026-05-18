@@ -6,3 +6,4 @@ using namespace std;
 // Trap rainwater between elevation bars.
 // Time Complexity: O(n)
 // Space Complexity: O(n)
+class Solution {
