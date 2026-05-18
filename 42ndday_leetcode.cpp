@@ -27,3 +27,4 @@ public:
 		int water = 0;
 		for (int i = 0; i < n; ++i) {
 			water += min(leftMax[i], rightMax[i]) - height[i];
+		}
