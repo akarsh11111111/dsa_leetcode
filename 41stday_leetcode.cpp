@@ -15,3 +15,4 @@ public:
 			while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
 				swap(nums[i], nums[nums[i] - 1]);
 			}
+		}
