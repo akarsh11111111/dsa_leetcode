@@ -6,3 +6,4 @@ using namespace std;
 // Find first missing positive integer.
 // Time Complexity: O(n)
 // Space Complexity: O(1)
+class Solution {
