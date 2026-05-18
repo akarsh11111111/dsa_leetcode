@@ -19,3 +19,4 @@ public:
 			leftMax[i] = max(leftMax[i - 1], height[i]);
 		}
 
+		rightMax[n - 1] = height[n - 1];
