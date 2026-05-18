@@ -12,3 +12,4 @@ public:
 		if (height.empty()) return 0;
 
 		int n = height.size();
+		vector<int> leftMax(n), rightMax(n);
