@@ -29,3 +29,4 @@ public:
 			water += min(leftMax[i], rightMax[i]) - height[i];
 		}
 
+		return water;
