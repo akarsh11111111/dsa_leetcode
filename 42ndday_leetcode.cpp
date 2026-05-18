@@ -14,3 +14,4 @@ public:
 		int n = height.size();
 		vector<int> leftMax(n), rightMax(n);
 
+		leftMax[0] = height[0];
