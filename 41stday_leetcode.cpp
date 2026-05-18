@@ -16,3 +16,4 @@ public:
 				swap(nums[i], nums[nums[i] - 1]);
 			}
 		}
+
