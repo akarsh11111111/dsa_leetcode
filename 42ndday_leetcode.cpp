@@ -13,3 +13,4 @@ public:
 
 		int n = height.size();
 		vector<int> leftMax(n), rightMax(n);
+
