@@ -8,3 +8,4 @@ using namespace std;
 // Space Complexity: O(n)
 class Solution {
 public:
+	int trap(vector<int>& height) {
