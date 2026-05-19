@@ -26,3 +26,4 @@ public:
 				result[p1] += sum / 10;
 			}
 		}
+
