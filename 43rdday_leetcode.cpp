@@ -25,3 +25,4 @@ public:
 				result[p2] = sum % 10;
 				result[p1] += sum / 10;
 			}
+		}
