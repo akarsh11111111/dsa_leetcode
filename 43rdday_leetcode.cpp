@@ -28,3 +28,4 @@ public:
 		}
 
 		string ans;
+		for (int num : result) {
