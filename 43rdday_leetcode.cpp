@@ -22,3 +22,4 @@ public:
 				int p2 = i + j + 1;
 				int sum = mul + result[p2];
 
+				result[p2] = sum % 10;
