@@ -29,3 +29,4 @@ public:
 
 		string ans;
 		for (int num : result) {
+			if (!(ans.empty() && num == 0)) {
