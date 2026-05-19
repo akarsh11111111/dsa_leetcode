@@ -8,3 +8,4 @@ using namespace std;
 // Space Complexity: O(n + m)
 class Solution {
 public:
+	string multiply(string num1, string num2) {
