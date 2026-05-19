@@ -21,3 +21,4 @@ public:
 				int p1 = i + j;
 				int p2 = i + j + 1;
 				int sum = mul + result[p2];
+
