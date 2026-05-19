@@ -6,3 +6,4 @@ using namespace std;
 // Multiply two non-negative integer strings.
 // Time Complexity: O(n * m)
 // Space Complexity: O(n + m)
+class Solution {
