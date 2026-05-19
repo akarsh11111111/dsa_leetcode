@@ -23,3 +23,4 @@ public:
 				int sum = mul + result[p2];
 
 				result[p2] = sum % 10;
+				result[p1] += sum / 10;
