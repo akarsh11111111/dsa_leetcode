@@ -30,3 +30,4 @@ public:
 		string ans;
 		for (int num : result) {
 			if (!(ans.empty() && num == 0)) {
+				ans += to_string(num);
