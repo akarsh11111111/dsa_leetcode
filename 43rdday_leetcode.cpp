@@ -15,3 +15,4 @@ public:
 		int m = num2.size();
 		vector<int> result(n + m, 0);
 
+		for (int i = n - 1; i >= 0; --i) {
