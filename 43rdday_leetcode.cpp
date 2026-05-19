@@ -20,3 +20,4 @@ public:
 				int mul = (num1[i] - '0') * (num2[j] - '0');
 				int p1 = i + j;
 				int p2 = i + j + 1;
+				int sum = mul + result[p2];
