@@ -12,3 +12,4 @@ public:
 		if (num1 == "0" || num2 == "0") return "0";
 
 		int n = num1.size();
+		int m = num2.size();
