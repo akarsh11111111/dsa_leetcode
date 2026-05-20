@@ -16,3 +16,4 @@ public:
 		dp[0][0] = true;
 
 		for (int j = 1; j <= m; ++j) {
+			if (p[j - 1] == '*') {
