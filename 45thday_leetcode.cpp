@@ -12,3 +12,4 @@ public:
 		int currentMax = 0;
 		int nextMax = 0;
 
+		for (int i = 0; i < static_cast<int>(nums.size()) - 1; ++i) {
