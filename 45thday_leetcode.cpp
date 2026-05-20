@@ -16,3 +16,4 @@ public:
 			nextMax = max(nextMax, i + nums[i]);
 
 			if (i == currentMax) {
+				jumps++;
