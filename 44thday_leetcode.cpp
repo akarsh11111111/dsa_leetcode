@@ -13,3 +13,4 @@ public:
 		int m = p.size();
 		vector<vector<bool>> dp(n + 1, vector<bool>(m + 1, false));
 
+		dp[0][0] = true;
