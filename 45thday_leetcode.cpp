@@ -7,3 +7,4 @@ using namespace std;
 // Time Complexity: O(n)\n// Space Complexity: O(1)
 class Solution {
 public:
+	int jump(vector<int>& nums) {
