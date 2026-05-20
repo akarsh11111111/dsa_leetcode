@@ -6,3 +6,4 @@ using namespace std;
 // Find minimum number of jumps to reach last index.
 // Time Complexity: O(n)\n// Space Complexity: O(1)
 class Solution {
+public:
