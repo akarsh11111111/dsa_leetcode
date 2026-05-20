@@ -15,3 +15,4 @@ public:
 		for (int i = 0; i < static_cast<int>(nums.size()) - 1; ++i) {
 			nextMax = max(nextMax, i + nums[i]);
 
+			if (i == currentMax) {
