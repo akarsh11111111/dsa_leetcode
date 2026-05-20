@@ -6,3 +6,4 @@ using namespace std;
 // Implement wildcard pattern matching.
 // Time Complexity: O(n * m)
 // Space Complexity: O(n * m)
+class Solution {
