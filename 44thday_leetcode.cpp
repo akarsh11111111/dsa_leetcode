@@ -11,3 +11,4 @@ public:
 	bool isMatch(string s, string p) {
 		int n = s.size();
 		int m = p.size();
+		vector<vector<bool>> dp(n + 1, vector<bool>(m + 1, false));
