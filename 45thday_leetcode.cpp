@@ -18,3 +18,4 @@ public:
 			if (i == currentMax) {
 				jumps++;
 				currentMax = nextMax;
+			}
