@@ -9,3 +9,4 @@ class Solution {
 public:
 	int jump(vector<int>& nums) {
 		int jumps = 0;
+		int currentMax = 0;
