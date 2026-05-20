@@ -10,3 +10,4 @@ public:
 	int jump(vector<int>& nums) {
 		int jumps = 0;
 		int currentMax = 0;
+		int nextMax = 0;
