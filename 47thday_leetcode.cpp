@@ -21,4 +21,5 @@ private:
 		if (path.size() == nums.size()) {
 			result.push_back(path);
 			return;
+		}
 
