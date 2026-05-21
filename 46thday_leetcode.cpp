@@ -23,3 +23,4 @@ private:
 		for (int i = start; i < static_cast<int>(nums.size()); ++i) {
 			swap(nums[start], nums[i]);
 			backtrack(nums, start + 1, result);
+			swap(nums[start], nums[i]);
