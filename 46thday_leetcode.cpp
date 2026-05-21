@@ -24,3 +24,4 @@ private:
 			swap(nums[start], nums[i]);
 			backtrack(nums, start + 1, result);
 			swap(nums[start], nums[i]);
+		}
