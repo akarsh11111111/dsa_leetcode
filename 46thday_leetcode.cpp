@@ -16,3 +16,4 @@ public:
 private:
 	void backtrack(vector<int>& nums, int start, vector<vector<int>>& result) {
 		if (start == static_cast<int>(nums.size())) {
+			result.push_back(nums);
