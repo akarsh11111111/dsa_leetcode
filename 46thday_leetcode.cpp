@@ -9,3 +9,4 @@ class Solution {
 public:
 	vector<vector<int>> permute(vector<int>& nums) {
 		vector<vector<int>> result;
+		backtrack(nums, 0, result);
