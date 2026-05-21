@@ -32,3 +32,4 @@ private:
 			path.push_back(nums[i]);
 			backtrack(nums, used, path, result);
 			path.pop_back();
+			used[i] = false;
