@@ -19,3 +19,4 @@ public:
 private:
 	void backtrack(vector<int>& nums, vector<bool>& used, vector<int>& path, vector<vector<int>>& result) {
 		if (path.size() == nums.size()) {
+			result.push_back(path);
