@@ -14,3 +14,4 @@ public:
 		vector<int> path;
 		backtrack(nums, used, path, result);
 		return result;
+	}
