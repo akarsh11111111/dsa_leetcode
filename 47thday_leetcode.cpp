@@ -31,3 +31,4 @@ private:
 			used[i] = true;
 			path.push_back(nums[i]);
 			backtrack(nums, used, path, result);
+			path.pop_back();
