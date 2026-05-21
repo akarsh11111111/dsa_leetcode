@@ -26,3 +26,4 @@ private:
 			swap(nums[start], nums[i]);
 		}
 	}
+};
