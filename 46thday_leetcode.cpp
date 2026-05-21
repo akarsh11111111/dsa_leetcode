@@ -20,3 +20,4 @@ private:
 			return;
 		}
 
+		for (int i = start; i < static_cast<int>(nums.size()); ++i) {
