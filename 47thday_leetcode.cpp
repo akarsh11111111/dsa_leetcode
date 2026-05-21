@@ -28,3 +28,4 @@ private:
 				continue;
 			}
 
+			used[i] = true;
