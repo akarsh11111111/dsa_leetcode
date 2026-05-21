@@ -5,3 +5,4 @@ using namespace std;
 // LeetCode #46: Permutations
 // Generate all permutations of array.
 // Time Complexity: O(n * n!)\n// Space Complexity: O(n!)
+class Solution {
