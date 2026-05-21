@@ -21,3 +21,4 @@ private:
 		}
 
 		for (int i = start; i < static_cast<int>(nums.size()); ++i) {
+			swap(nums[start], nums[i]);
