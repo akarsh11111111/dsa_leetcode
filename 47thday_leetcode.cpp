@@ -35,3 +35,4 @@ private:
 			used[i] = false;
 		}
 	}
+};
