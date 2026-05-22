@@ -18,3 +18,4 @@ public:
 			string sorted_str = str;
 			sort(sorted_str.begin(), sorted_str.end());
 			map[sorted_str].push_back(str);
+		}
