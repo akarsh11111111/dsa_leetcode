@@ -21,3 +21,4 @@ public:
 		}
 
 		vector<vector<string>> result;
+		for (auto& p : map) {
