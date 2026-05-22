@@ -25,3 +25,4 @@ public:
 			result.push_back(p.second);
 		}
 
+		return result;
