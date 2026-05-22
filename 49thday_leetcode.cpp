@@ -20,3 +20,4 @@ public:
 			map[sorted_str].push_back(str);
 		}
 
+		vector<vector<string>> result;
