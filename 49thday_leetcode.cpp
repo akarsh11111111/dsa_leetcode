@@ -9,3 +9,4 @@ using namespace std;
 // Group anagrams from list of strings.
 // Time Complexity: O(n * k log k)
 // Space Complexity: O(n * k)
+class Solution {
