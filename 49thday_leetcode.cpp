@@ -15,3 +15,4 @@ public:
 		unordered_map<string, vector<string>> map;
 
 		for (const string& str : strs) {
+			string sorted_str = str;
