@@ -16,3 +16,4 @@ public:
 
 		for (const string& str : strs) {
 			string sorted_str = str;
+			sort(sorted_str.begin(), sorted_str.end());
