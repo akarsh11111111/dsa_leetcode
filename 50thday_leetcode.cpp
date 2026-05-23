@@ -20,3 +20,4 @@ public:
 
 private:
 	double fastPow(double x, long long n) {
+		if (n == 0) {
