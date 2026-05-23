@@ -8,3 +8,4 @@ using namespace std;
 // Space Complexity: O(log n)
 class Solution {
 public:
+	double myPow(double x, int n) {
