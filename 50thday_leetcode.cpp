@@ -10,3 +10,4 @@ class Solution {
 public:
 	double myPow(double x, int n) {
 		long long N = n;
+		if (N < 0) {
