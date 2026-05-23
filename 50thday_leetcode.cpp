@@ -18,3 +18,4 @@ public:
 		return fastPow(x, N);
 	}
 
+private:
