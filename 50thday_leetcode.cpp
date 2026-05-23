@@ -16,3 +16,4 @@ public:
 		}
 
 		return fastPow(x, N);
+	}
