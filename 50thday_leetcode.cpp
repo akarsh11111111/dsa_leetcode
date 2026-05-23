@@ -32,3 +32,4 @@ private:
 			return half * half * x;
 		}
 	}
+};
