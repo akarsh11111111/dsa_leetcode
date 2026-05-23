@@ -15,3 +15,4 @@ public:
 			N = -N;
 		}
 
+		return fastPow(x, N);
