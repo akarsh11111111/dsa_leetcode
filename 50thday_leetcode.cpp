@@ -29,3 +29,4 @@ private:
 		if (n % 2 == 0) {
 			return half * half;
 		} else {
+			return half * half * x;
