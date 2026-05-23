@@ -31,3 +31,4 @@ private:
 		} else {
 			return half * half * x;
 		}
+	}
