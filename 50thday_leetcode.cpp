@@ -19,3 +19,4 @@ public:
 	}
 
 private:
+	double fastPow(double x, long long n) {
