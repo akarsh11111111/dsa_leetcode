@@ -24,3 +24,4 @@ private:
 			return 1.0;
 		}
 
+		double half = fastPow(x, n / 2);
