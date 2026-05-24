@@ -85,3 +85,4 @@ private:
             if (c >= 0 && c < n) row[c] = 'Q';
             board.push_back(row);
         }
+        return board;
