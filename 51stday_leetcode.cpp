@@ -61,3 +61,4 @@ private:
         }
 
         for (int col = 0; col < n; ++col) {
+            int d1 = row + col;
