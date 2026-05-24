@@ -56,3 +56,4 @@ private:
                    vector<bool>& cols, vector<bool>& diag1,
                    vector<bool>& diag2, vector<vector<string>>& res) {
         if (row == n) {
+            res.push_back(buildBoard(queens, n));
