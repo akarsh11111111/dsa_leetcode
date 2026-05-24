@@ -27,3 +27,4 @@ using namespace std;
 // To test conflicts in O(1) we maintain three boolean arrays:
 // - `cols[col]` for occupied columns,
 // - `diag1[row+col]` for occupied "main" diagonals,
+// - `diag2[row-col + (n-1)]` for occupied "anti" diagonals.
