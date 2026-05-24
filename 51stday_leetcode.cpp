@@ -19,3 +19,4 @@ using namespace std;
 //   "Q...",
 //   "...Q",
 //   ".Q.."]
+// ]
