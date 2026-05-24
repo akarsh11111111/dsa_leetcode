@@ -22,3 +22,4 @@ using namespace std;
 // ]
 //
 // Approach (Backtracking):
+// We place queens row by row. For each row we try every column and check if
