@@ -39,3 +39,4 @@ using namespace std;
 // and a vector<int> `queens` storing the column index for the queen in each row.
 
 class Solution {
+public:
