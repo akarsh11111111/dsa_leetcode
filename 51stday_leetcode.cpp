@@ -36,3 +36,4 @@ using namespace std;
 // Space Complexity: O(n) for recursion and bookkeeping arrays.
 //
 // I implemented the standard backtracking solution using vectors of booleans
+// and a vector<int> `queens` storing the column index for the queen in each row.
