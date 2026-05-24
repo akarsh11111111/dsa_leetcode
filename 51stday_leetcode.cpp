@@ -25,3 +25,4 @@ using namespace std;
 // We place queens row by row. For each row we try every column and check if
 // placing a queen at (row, col) conflicts with any previously placed queen.
 // To test conflicts in O(1) we maintain three boolean arrays:
+// - `cols[col]` for occupied columns,
