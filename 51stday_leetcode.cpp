@@ -23,3 +23,4 @@ using namespace std;
 //
 // Approach (Backtracking):
 // We place queens row by row. For each row we try every column and check if
+// placing a queen at (row, col) conflicts with any previously placed queen.
