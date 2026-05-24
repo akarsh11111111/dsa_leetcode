@@ -83,3 +83,4 @@ private:
             string row(n, '.');
             int c = queens[r];
             if (c >= 0 && c < n) row[c] = 'Q';
+            board.push_back(row);
