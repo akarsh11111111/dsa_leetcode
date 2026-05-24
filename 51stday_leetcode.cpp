@@ -82,3 +82,4 @@ private:
         for (int r = 0; r < n; ++r) {
             string row(n, '.');
             int c = queens[r];
+            if (c >= 0 && c < n) row[c] = 'Q';
