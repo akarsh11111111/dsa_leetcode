@@ -12,3 +12,4 @@ using namespace std;
 // Example (n = 4):
 // [
 //  [".Q..",
+//   "...Q",
