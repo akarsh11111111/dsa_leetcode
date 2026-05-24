@@ -26,3 +26,4 @@ using namespace std;
 // placing a queen at (row, col) conflicts with any previously placed queen.
 // To test conflicts in O(1) we maintain three boolean arrays:
 // - `cols[col]` for occupied columns,
+// - `diag1[row+col]` for occupied "main" diagonals,
