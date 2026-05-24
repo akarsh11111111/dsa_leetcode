@@ -69,3 +69,4 @@ private:
             queens[row] = col;
             cols[col] = diag1[d1] = diag2[d2] = true;
 
+            backtrack(row + 1, n, queens, cols, diag1, diag2, res);
