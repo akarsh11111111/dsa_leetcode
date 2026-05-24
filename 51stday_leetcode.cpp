@@ -74,3 +74,4 @@ private:
             // undo
             queens[row] = -1;
             cols[col] = diag1[d1] = diag2[d2] = false;
+        }
