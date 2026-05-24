@@ -81,3 +81,4 @@ private:
         vector<string> board;
         for (int r = 0; r < n; ++r) {
             string row(n, '.');
+            int c = queens[r];
