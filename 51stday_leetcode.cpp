@@ -11,3 +11,4 @@ using namespace std;
 // queens, where 'Q' and '.' both indicate a queen and an empty space respectively.
 // Example (n = 4):
 // [
+//  [".Q..",
