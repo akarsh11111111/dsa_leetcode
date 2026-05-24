@@ -46,3 +46,4 @@ public:
         vector<bool> cols(n, false);
         vector<bool> diag1(2 * n - 1, false); // row + col
         vector<bool> diag2(2 * n - 1, false); // row - col + (n-1)
+
