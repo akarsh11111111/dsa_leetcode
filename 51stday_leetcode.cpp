@@ -6,3 +6,4 @@ using namespace std;
 
 // LeetCode #51: N-Queens
 // Problem:
+// Given an integer n, return all distinct solutions to the n-queens puzzle.
