@@ -33,3 +33,4 @@ using namespace std;
 // construct the board from the stored queen positions.
 //
 // Time Complexity: O(k) where k is number of generated placements (roughly O(n!))
+// Space Complexity: O(n) for recursion and bookkeeping arrays.
