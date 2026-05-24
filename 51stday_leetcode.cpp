@@ -32,3 +32,4 @@ using namespace std;
 // On backtrack we unmark them. When row == n we have a valid solution and
 // construct the board from the stored queen positions.
 //
+// Time Complexity: O(k) where k is number of generated placements (roughly O(n!))
