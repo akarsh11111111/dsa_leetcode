@@ -58,3 +58,4 @@ private:
         if (row == n) {
             res.push_back(buildBoard(queens, n));
             return;
+        }
