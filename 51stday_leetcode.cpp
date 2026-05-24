@@ -64,3 +64,4 @@ private:
             int d1 = row + col;
             int d2 = row - col + (n - 1);
             if (cols[col] || diag1[d1] || diag2[d2]) continue;
+
