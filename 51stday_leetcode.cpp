@@ -49,3 +49,4 @@ public:
 
         backtrack(0, n, queens, cols, diag1, diag2, res);
         return res;
+    }
