@@ -54,3 +54,4 @@ public:
 private:
     void backtrack(int row, int n, vector<int>& queens,
                    vector<bool>& cols, vector<bool>& diag1,
+                   vector<bool>& diag2, vector<vector<string>>& res) {
