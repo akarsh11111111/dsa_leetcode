@@ -10,3 +10,4 @@ using namespace std;
 // Each solution contains an n x n board configuration of the placement of the
 // queens, where 'Q' and '.' both indicate a queen and an empty space respectively.
 // Example (n = 4):
+// [
