@@ -68,3 +68,4 @@ private:
             // place
             queens[row] = col;
             cols[col] = diag1[d1] = diag2[d2] = true;
+
