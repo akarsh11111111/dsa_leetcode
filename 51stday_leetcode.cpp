@@ -30,3 +30,4 @@ using namespace std;
 // - `diag2[row-col + (n-1)]` for occupied "anti" diagonals.
 // When we place a queen we mark those three arrays and recurse to the next row.
 // On backtrack we unmark them. When row == n we have a valid solution and
+// construct the board from the stored queen positions.
