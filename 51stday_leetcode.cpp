@@ -31,3 +31,4 @@ using namespace std;
 // When we place a queen we mark those three arrays and recurse to the next row.
 // On backtrack we unmark them. When row == n we have a valid solution and
 // construct the board from the stored queen positions.
+//
