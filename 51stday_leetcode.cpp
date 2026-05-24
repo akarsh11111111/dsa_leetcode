@@ -77,3 +77,4 @@ private:
         }
     }
 
+    vector<string> buildBoard(const vector<int>& queens, int n) {
