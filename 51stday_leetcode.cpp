@@ -87,3 +87,4 @@ private:
         }
         return board;
     }
+};
