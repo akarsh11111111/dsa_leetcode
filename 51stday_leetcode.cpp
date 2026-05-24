@@ -59,3 +59,4 @@ private:
             res.push_back(buildBoard(queens, n));
             return;
         }
+
