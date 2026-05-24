@@ -21,3 +21,4 @@ using namespace std;
 //   ".Q.."]
 // ]
 //
+// Approach (Backtracking):
