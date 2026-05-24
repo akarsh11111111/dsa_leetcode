@@ -43,3 +43,4 @@ public:
     vector<vector<string>> solveNQueens(int n) {
         vector<vector<string>> res;
         vector<int> queens(n, -1);
+        vector<bool> cols(n, false);
