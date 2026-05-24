@@ -80,3 +80,4 @@ private:
     vector<string> buildBoard(const vector<int>& queens, int n) {
         vector<string> board;
         for (int r = 0; r < n; ++r) {
+            string row(n, '.');
