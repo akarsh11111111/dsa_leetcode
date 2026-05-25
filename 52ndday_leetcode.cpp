@@ -7,3 +7,4 @@ using namespace std;
 // a full placement is found. Use boolean arrays for columns and diagonals.
 
 class Solution {
+public:
