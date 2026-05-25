@@ -28,3 +28,4 @@ private:
             int d2 = row - col + (n-1);
             if (cols[col] || diag1[d1] || diag2[d2]) continue;
             queens[row] = col;
+            cols[col] = diag1[d1] = diag2[d2] = true;
