@@ -19,3 +19,4 @@ public:
     }
 
 private:
+    void backtrack(int row, int n, vector<int>& queens,
