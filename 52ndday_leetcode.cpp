@@ -15,3 +15,4 @@ public:
         vector<bool> diag1(2*n-1, false);
         vector<bool> diag2(2*n-1, false);
         backtrack(0, n, queens, cols, diag1, diag2, count);
+        return count;
