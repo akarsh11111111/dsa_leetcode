@@ -24,3 +24,4 @@ private:
                    vector<bool>& diag2, int& count) {
         if (row == n) { ++count; return; }
         for (int col = 0; col < n; ++col) {
+            int d1 = row + col;
