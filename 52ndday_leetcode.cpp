@@ -9,3 +9,4 @@ using namespace std;
 class Solution {
 public:
     int totalNQueens(int n) {
+        int count = 0;
