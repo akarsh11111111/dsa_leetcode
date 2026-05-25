@@ -11,3 +11,4 @@ public:
     int totalNQueens(int n) {
         int count = 0;
         vector<int> queens(n, -1);
+        vector<bool> cols(n, false);
