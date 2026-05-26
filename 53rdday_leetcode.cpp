@@ -14,3 +14,4 @@ public:
             cur = max(nums[i], cur + nums[i]);
             best = max(best, cur);
         }
+        return best;
