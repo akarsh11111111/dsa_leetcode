@@ -5,3 +5,4 @@ using namespace std;
 // Problem: Given an integer array, find the contiguous subarray with the largest sum.
 // Approach: Kadane's algorithm — track current max ending here and global max.
 
+class Solution {
