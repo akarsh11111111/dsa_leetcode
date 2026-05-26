@@ -6,3 +6,4 @@ using namespace std;
 // Approach: Kadane's algorithm — track current max ending here and global max.
 
 class Solution {
+public:
