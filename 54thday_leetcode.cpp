@@ -7,3 +7,4 @@ using namespace std;
 // shrinking boundaries.
 
 class Solution {
+public:
