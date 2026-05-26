@@ -15,3 +15,4 @@ public:
         int left = 0, right = matrix[0].size()-1;
         while (top <= bottom && left <= right) {
             for (int j = left; j <= right; ++j) res.push_back(matrix[top][j]);
+            ++top;
