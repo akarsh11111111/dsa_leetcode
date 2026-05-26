@@ -11,3 +11,4 @@ public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> res;
         if (matrix.empty() || matrix[0].empty()) return res;
+        int top = 0, bottom = matrix.size()-1;
