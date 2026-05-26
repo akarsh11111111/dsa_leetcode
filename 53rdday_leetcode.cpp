@@ -10,3 +10,4 @@ public:
     int maxSubArray(vector<int>& nums) {
         int best = nums[0];
         int cur = nums[0];
+        for (size_t i = 1; i < nums.size(); ++i) {
