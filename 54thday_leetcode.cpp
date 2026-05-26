@@ -6,3 +6,4 @@ using namespace std;
 // Approach: Maintain boundaries (top,bottom,left,right) and traverse while
 // shrinking boundaries.
 
+class Solution {
