@@ -9,3 +9,4 @@ class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
         int best = nums[0];
+        int cur = nums[0];
