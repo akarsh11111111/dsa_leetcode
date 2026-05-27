@@ -24,3 +24,4 @@ public:
             }
             if (left <= right) {
                 for (int i = bottom; i >= top; --i) res.push_back(matrix[i][left]);
+                ++left;
