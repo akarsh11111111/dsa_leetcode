@@ -20,3 +20,4 @@ public:
             --right;
             if (top <= bottom) {
                 for (int j = right; j >= left; --j) res.push_back(matrix[bottom][j]);
+                --bottom;
