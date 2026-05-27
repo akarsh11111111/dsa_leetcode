@@ -13,3 +13,4 @@ public:
             if (i > reach) return false;
             reach = max(reach, i + nums[i]);
             if (reach >= (int)nums.size()-1) return true;
+        }
