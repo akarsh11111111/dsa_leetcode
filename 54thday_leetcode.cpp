@@ -18,3 +18,4 @@ public:
             ++top;
             for (int i = top; i <= bottom && left <= right; ++i) res.push_back(matrix[i][right]);
             --right;
+            if (top <= bottom) {
