@@ -6,3 +6,4 @@ using namespace std;
 // Approach: Greedy — track the furthest reachable index.
 
 class Solution {
+public:
