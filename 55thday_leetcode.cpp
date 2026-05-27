@@ -5,3 +5,4 @@ using namespace std;
 // Problem: Determine if you can reach the last index given jump lengths.
 // Approach: Greedy — track the furthest reachable index.
 
+class Solution {
