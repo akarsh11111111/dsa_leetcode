@@ -27,3 +27,4 @@ public:
                 ++left;
             }
         }
+        return res;
