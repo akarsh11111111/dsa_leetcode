@@ -5,3 +5,4 @@ using namespace std;
 // Problem: Insert a new interval into a set of non-overlapping intervals and
 // merge if necessary.
 // Approach: Walk through intervals, add those before new interval, merge overlaps,
+// then add remaining.
