@@ -7,3 +7,4 @@ using namespace std;
 // Approach: Walk through intervals, add those before new interval, merge overlaps,
 // then add remaining.
 
+class Solution {
