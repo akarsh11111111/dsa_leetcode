@@ -22,3 +22,4 @@ public:
         while (i < n) res.push_back(intervals[i++]);
         return res;
     }
+};
