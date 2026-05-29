@@ -11,3 +11,4 @@ class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         vector<vector<int>> res;
+        int i = 0, n = intervals.size();
