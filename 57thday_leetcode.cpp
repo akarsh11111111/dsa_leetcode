@@ -18,3 +18,4 @@ public:
             newInterval[1] = max(newInterval[1], intervals[i][1]);
             ++i;
         }
+        res.push_back(newInterval);
