@@ -21,3 +21,4 @@ public:
         res.push_back(newInterval);
         while (i < n) res.push_back(intervals[i++]);
         return res;
+    }
