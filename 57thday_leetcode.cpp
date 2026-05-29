@@ -13,3 +13,4 @@ public:
         vector<vector<int>> res;
         int i = 0, n = intervals.size();
         while (i < n && intervals[i][1] < newInterval[0]) res.push_back(intervals[i++]);
+        while (i < n && intervals[i][0] <= newInterval[1]) {
