@@ -8,3 +8,4 @@ using namespace std;
 // then add remaining.
 
 class Solution {
+public:
