@@ -14,3 +14,4 @@ public:
         queue<TreeNode*> q; q.push(root); bool leftToRight = true;
         while (!q.empty()){
             int sz = q.size(); vector<int> row(sz);
+            for (int i=0;i<sz;i++){
