@@ -17,3 +17,4 @@ public:
         return check(a->left,b->right) && check(a->right,b->left);
     }
 };
+
