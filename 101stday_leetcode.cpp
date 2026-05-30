@@ -9,3 +9,4 @@ public:
     bool isSymmetric(TreeNode* root) {
         if (!root) return true;
         return check(root->left, root->right);
+    }
