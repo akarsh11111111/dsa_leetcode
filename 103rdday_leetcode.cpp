@@ -18,3 +18,11 @@ public:
                 TreeNode* n = q.front(); q.pop();
                 int idx = leftToRight ? i : (sz-1-i);
                 row[idx] = n->val;
+                if (n->left) q.push(n->left); if (n->right) q.push(n->right);
+            }
+            leftToRight = !leftToRight; res.push_back(row);
+        }
+        return res;
+    }
+};
+
