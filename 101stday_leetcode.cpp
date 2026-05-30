@@ -16,3 +16,4 @@ public:
         if (a->val != b->val) return false;
         return check(a->left,b->right) && check(a->right,b->left);
     }
+};
