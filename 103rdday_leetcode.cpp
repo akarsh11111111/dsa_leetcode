@@ -11,3 +11,4 @@ public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         vector<vector<int>> res;
         if (!root) return res;
+        queue<TreeNode*> q; q.push(root); bool leftToRight = true;
