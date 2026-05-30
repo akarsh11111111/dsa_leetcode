@@ -11,3 +11,4 @@ public:
         return check(root->left, root->right);
     }
     bool check(TreeNode* a, TreeNode* b){
+        if (!a && !b) return true;
