@@ -10,3 +10,4 @@ public:
         if (!root) return true;
         return check(root->left, root->right);
     }
+    bool check(TreeNode* a, TreeNode* b){
