@@ -16,3 +16,4 @@ public:
             int sz = q.size(); vector<int> row(sz);
             for (int i=0;i<sz;i++){
                 TreeNode* n = q.front(); q.pop();
+                int idx = leftToRight ? i : (sz-1-i);
