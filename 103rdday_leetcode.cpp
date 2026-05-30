@@ -17,3 +17,4 @@ public:
             for (int i=0;i<sz;i++){
                 TreeNode* n = q.front(); q.pop();
                 int idx = leftToRight ? i : (sz-1-i);
+                row[idx] = n->val;
