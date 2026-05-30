@@ -13,3 +13,4 @@ public:
     bool check(TreeNode* a, TreeNode* b){
         if (!a && !b) return true;
         if (!a || !b) return false;
+        if (a->val != b->val) return false;
