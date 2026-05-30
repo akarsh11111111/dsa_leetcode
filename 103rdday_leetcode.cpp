@@ -15,3 +15,4 @@ public:
         while (!q.empty()){
             int sz = q.size(); vector<int> row(sz);
             for (int i=0;i<sz;i++){
+                TreeNode* n = q.front(); q.pop();
