@@ -7,3 +7,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
+        if (!root) return 0;
