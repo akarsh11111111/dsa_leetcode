@@ -14,3 +14,4 @@ public:
         return build(preorder, 0, preorder.size()-1, 0, inorder.size()-1);
     }
     TreeNode* build(vector<int>& pre,int pl,int pr,int il,int ir){
+        if (pl>pr) return nullptr;
