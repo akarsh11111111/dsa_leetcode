@@ -19,3 +19,4 @@ public:
         int k = idx[rootVal]; int leftSize = k - il;
         root->left = build(pre, pl+1, pl+leftSize, il, k-1);
         root->right = build(pre, pl+leftSize+1, pr, k+1, ir);
+        return root;
