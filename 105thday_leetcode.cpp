@@ -9,3 +9,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
     unordered_map<int,int> idx;
 public:
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
