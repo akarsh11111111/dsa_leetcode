@@ -11,3 +11,4 @@ class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         for (int i=0;i<inorder.size();++i) idx[inorder[i]] = i;
+        return build(preorder, 0, preorder.size()-1, 0, inorder.size()-1);
