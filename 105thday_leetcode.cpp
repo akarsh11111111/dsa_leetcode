@@ -16,3 +16,4 @@ public:
     TreeNode* build(vector<int>& pre,int pl,int pr,int il,int ir){
         if (pl>pr) return nullptr;
         int rootVal = pre[pl]; TreeNode* root = new TreeNode(rootVal);
+        int k = idx[rootVal]; int leftSize = k - il;
