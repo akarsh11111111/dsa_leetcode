@@ -17,3 +17,4 @@ public:
         if (pl>pr) return nullptr;
         int rootVal = pre[pl]; TreeNode* root = new TreeNode(rootVal);
         int k = idx[rootVal]; int leftSize = k - il;
+        root->left = build(pre, pl+1, pl+leftSize, il, k-1);
