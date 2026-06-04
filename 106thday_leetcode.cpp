@@ -13,3 +13,4 @@ public:
         for (int i=0;i<inorder.size();++i) idx[inorder[i]] = i;
         return build(inorder, 0, inorder.size()-1, post, 0, post.size()-1);
     }
+    TreeNode* build(vector<int>& in,int il,int ir, vector<int>& post,int pl,int pr){
