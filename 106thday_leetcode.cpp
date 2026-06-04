@@ -21,3 +21,4 @@ public:
         root->right = build(in, k+1, ir, post, pl+leftSize, pr-1);
         return root;
     }
+};
