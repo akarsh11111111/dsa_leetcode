@@ -18,3 +18,4 @@ public:
         int rootVal = post[pr]; TreeNode* root = new TreeNode(rootVal);
         int k = idx[rootVal]; int leftSize = k - il;
         root->left = build(in, il, k-1, post, pl, pl+leftSize-1);
+        root->right = build(in, k+1, ir, post, pl+leftSize, pr-1);
