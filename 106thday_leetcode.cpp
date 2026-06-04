@@ -10,3 +10,4 @@ class Solution {
     unordered_map<int,int> idx;
 public:
     TreeNode* buildTree(vector<int>& inorder, vector<int>& post) {
+        for (int i=0;i<inorder.size();++i) idx[inorder[i]] = i;
