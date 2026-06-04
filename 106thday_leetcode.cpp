@@ -15,3 +15,4 @@ public:
     }
     TreeNode* build(vector<int>& in,int il,int ir, vector<int>& post,int pl,int pr){
         if (pl>pr) return nullptr;
+        int rootVal = post[pr]; TreeNode* root = new TreeNode(rootVal);
