@@ -11,3 +11,4 @@ public:
         if (!head) return nullptr;
         return build(head, nullptr);
     }
+    TreeNode* build(ListNode* l, ListNode* r){
