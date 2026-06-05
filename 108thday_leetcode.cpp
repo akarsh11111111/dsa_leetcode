@@ -8,3 +8,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
+        return build(nums,0,nums.size()-1);
