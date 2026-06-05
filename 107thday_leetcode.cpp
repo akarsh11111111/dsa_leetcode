@@ -12,3 +12,4 @@ public:
         vector<vector<int>> res;
         if (!root) return res;
         queue<TreeNode*> q; q.push(root);
+        while (!q.empty()){
