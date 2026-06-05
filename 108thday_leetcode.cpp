@@ -13,3 +13,4 @@ public:
     TreeNode* build(vector<int>& a,int l,int r){
         if (l>r) return nullptr;
         int m = l + (r-l)/2; TreeNode* root = new TreeNode(a[m]);
+        root->left = build(a,l,m-1); root->right = build(a,m+1,r);
