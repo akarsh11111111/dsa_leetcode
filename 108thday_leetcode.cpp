@@ -12,3 +12,4 @@ public:
     }
     TreeNode* build(vector<int>& a,int l,int r){
         if (l>r) return nullptr;
+        int m = l + (r-l)/2; TreeNode* root = new TreeNode(a[m]);
