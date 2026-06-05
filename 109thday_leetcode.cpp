@@ -14,3 +14,12 @@ public:
     TreeNode* build(ListNode* l, ListNode* r){
         if (l==r) return nullptr;
         ListNode* slow = l; ListNode* fast = l;
+        while (fast!=r && fast->next!=r){ slow = slow->next; fast = fast->next->next; }
+        TreeNode* node = new TreeNode(slow->val);
+        node->left = build(l, slow);
+        node->right = build(slow->next, r);
+        return node;
+    }
+};
+
+//int main() { return 0; }
