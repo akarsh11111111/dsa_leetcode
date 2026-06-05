@@ -12,3 +12,4 @@ public:
         return build(head, nullptr);
     }
     TreeNode* build(ListNode* l, ListNode* r){
+        if (l==r) return nullptr;
