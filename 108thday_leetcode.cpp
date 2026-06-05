@@ -11,3 +11,4 @@ public:
         return build(nums,0,nums.size()-1);
     }
     TreeNode* build(vector<int>& a,int l,int r){
+        if (l>r) return nullptr;
