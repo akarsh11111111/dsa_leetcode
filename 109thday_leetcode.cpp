@@ -9,3 +9,4 @@ class Solution {
 public:
     TreeNode* sortedListToBST(ListNode* head) {
         if (!head) return nullptr;
+        return build(head, nullptr);
