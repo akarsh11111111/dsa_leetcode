@@ -19,3 +19,4 @@ public:
             }
             res.insert(res.begin(), row);
         }
+        return res;
