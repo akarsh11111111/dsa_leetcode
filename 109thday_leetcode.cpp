@@ -13,3 +13,4 @@ public:
     }
     TreeNode* build(ListNode* l, ListNode* r){
         if (l==r) return nullptr;
+        ListNode* slow = l; ListNode* fast = l;
