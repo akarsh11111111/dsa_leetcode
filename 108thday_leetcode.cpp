@@ -15,3 +15,4 @@ public:
         int m = l + (r-l)/2; TreeNode* root = new TreeNode(a[m]);
         root->left = build(a,l,m-1); root->right = build(a,m+1,r);
         return root;
+    }
