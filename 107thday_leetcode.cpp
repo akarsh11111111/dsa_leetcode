@@ -10,3 +10,4 @@ class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
         vector<vector<int>> res;
+        if (!root) return res;
