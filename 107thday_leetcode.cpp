@@ -17,3 +17,4 @@ public:
             while (sz--){ TreeNode* n = q.front(); q.pop(); row.push_back(n->val);
                 if (n->left) q.push(n->left); if (n->right) q.push(n->right);
             }
+            res.insert(res.begin(), row);
