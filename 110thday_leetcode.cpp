@@ -17,3 +17,4 @@ public:
         if (abs(lh-rh)>1) return -1;
         return max(lh,rh)+1;
     }
+};
