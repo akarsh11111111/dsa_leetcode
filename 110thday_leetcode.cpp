@@ -16,3 +16,4 @@ public:
         int rh = height(node->right); if (rh==-1) return -1;
         if (abs(lh-rh)>1) return -1;
         return max(lh,rh)+1;
+    }
