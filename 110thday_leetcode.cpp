@@ -11,3 +11,4 @@ public:
         return height(root) != -1;
     }
     int height(TreeNode* node){
+        if (!node) return 0;
