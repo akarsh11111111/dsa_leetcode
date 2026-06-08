@@ -7,3 +7,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
+        if (!root) return false;
