@@ -9,3 +9,4 @@ class Solution {
 public:
     vector<vector<int>> res;
     vector<int> cur;
+    vector<vector<int>> pathSum(TreeNode* root, int sum) {
