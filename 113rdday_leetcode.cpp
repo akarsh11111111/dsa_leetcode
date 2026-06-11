@@ -14,3 +14,4 @@ public:
     }
     void dfs(TreeNode* node, int sum){
         if (!node) return;
+        cur.push_back(node->val);
