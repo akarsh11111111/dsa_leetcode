@@ -18,3 +18,4 @@ public:
         if (!node->left && !node->right && sum==node->val) res.push_back(cur);
         dfs(node->left, sum-node->val); dfs(node->right, sum-node->val);
         cur.pop_back();
+    }
