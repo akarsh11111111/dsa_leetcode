@@ -12,3 +12,4 @@ public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
         res.clear(); cur.clear(); dfs(root, sum); return res;
     }
+    void dfs(TreeNode* node, int sum){
