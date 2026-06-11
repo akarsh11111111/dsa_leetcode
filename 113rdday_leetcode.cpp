@@ -13,3 +13,4 @@ public:
         res.clear(); cur.clear(); dfs(root, sum); return res;
     }
     void dfs(TreeNode* node, int sum){
+        if (!node) return;
