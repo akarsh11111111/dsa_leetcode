@@ -15,3 +15,4 @@ public:
     void dfs(TreeNode* node, int sum){
         if (!node) return;
         cur.push_back(node->val);
+        if (!node->left && !node->right && sum==node->val) res.push_back(cur);
