@@ -16,3 +16,4 @@ public:
                 cur->right = cur->left; cur->left = nullptr;
             }
             cur = cur->right;
+        }
