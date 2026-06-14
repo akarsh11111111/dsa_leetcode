@@ -12,3 +12,4 @@ public:
             if (cur->left) {
                 TreeNode* pre = cur->left;
                 while (pre->right) pre = pre->right;
+                pre->right = cur->right;
