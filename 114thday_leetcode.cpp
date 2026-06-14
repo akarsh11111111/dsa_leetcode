@@ -10,3 +10,4 @@ public:
         TreeNode* cur = root;
         while (cur) {
             if (cur->left) {
+                TreeNode* pre = cur->left;
