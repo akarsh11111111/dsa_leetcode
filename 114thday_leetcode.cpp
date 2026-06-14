@@ -9,3 +9,4 @@ public:
     void flatten(TreeNode* root) {
         TreeNode* cur = root;
         while (cur) {
+            if (cur->left) {
