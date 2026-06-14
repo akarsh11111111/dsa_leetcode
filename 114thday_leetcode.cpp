@@ -13,3 +13,4 @@ public:
                 TreeNode* pre = cur->left;
                 while (pre->right) pre = pre->right;
                 pre->right = cur->right;
+                cur->right = cur->left; cur->left = nullptr;
