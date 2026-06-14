@@ -6,3 +6,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 
 class Solution {
 public:
+    void flatten(TreeNode* root) {
