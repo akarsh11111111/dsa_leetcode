@@ -18,3 +18,4 @@ public:
             cur = cur->right;
         }
     }
+};
