@@ -14,3 +14,4 @@ public:
             Node dummy(0); Node* tail = &dummy; Node* cur = head; head = nullptr;
             while (cur){
                 if (cur->left){ tail->next = cur->left; tail = tail->next; if (!head) head = tail; }
+                if (cur->right){ tail->next = cur->right; tail = tail->next; if (!head) head = tail; }
