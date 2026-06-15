@@ -8,3 +8,4 @@ struct Node { int val; Node* left; Node* right; Node* next; Node(int x): val(x),
 class Solution {
 public:
     Node* connect(Node* root) {
+        if (!root) return nullptr;
