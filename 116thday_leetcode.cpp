@@ -18,3 +18,8 @@ public:
             }
             leftmost = leftmost->left;
         }
+        return root;
+    }
+};
+
+//int main() { return 0; }
