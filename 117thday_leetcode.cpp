@@ -11,3 +11,4 @@ public:
         if (!root) return nullptr;
         Node* head = root;
         while (head){
+            Node dummy(0); Node* tail = &dummy; Node* cur = head; head = nullptr;
