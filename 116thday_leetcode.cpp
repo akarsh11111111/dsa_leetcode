@@ -17,3 +17,4 @@ public:
                 head = head->next;
             }
             leftmost = leftmost->left;
+        }
