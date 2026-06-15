@@ -15,3 +15,11 @@ public:
             while (cur){
                 if (cur->left){ tail->next = cur->left; tail = tail->next; if (!head) head = tail; }
                 if (cur->right){ tail->next = cur->right; tail = tail->next; if (!head) head = tail; }
+                cur = cur->next;
+            }
+        }
+        return root;
+    }
+};
+
+//int main() { return 0; }
