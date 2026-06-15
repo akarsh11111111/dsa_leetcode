@@ -9,3 +9,4 @@ class Solution {
 public:
     Node* connect(Node* root) {
         if (!root) return nullptr;
+        Node* head = root;
