@@ -5,3 +5,4 @@ using namespace std;
 // LeetCode #119: Pascal's Triangle II
 class Solution {
 public:
+    vector<int> getRow(int rowIndex) {
