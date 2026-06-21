@@ -9,3 +9,4 @@ public:
         int minp = INT_MAX, best = 0;
         for (int p: prices){ minp = min(minp,p); best = max(best, p-minp); }
         return best;
+    }
