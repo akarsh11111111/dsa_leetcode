@@ -6,3 +6,4 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        int minp = INT_MAX, best = 0;
