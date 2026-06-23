@@ -15,3 +15,4 @@ public:
         for (int i=n-2;i>=0;i--){ maxp = max(maxp, prices[i]); right[i] = max(right[i+1], maxp-prices[i]); }
         int res=0; for (int i=0;i<n;i++) res = max(res, left[i]+right[i]); return res;
     }
+};
