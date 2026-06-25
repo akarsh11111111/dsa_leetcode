@@ -15,3 +15,4 @@ public:
         int l = max(0, helper(node->left));
         int r = max(0, helper(node->right));
         best = max(best, node->val + l + r);
+        return node->val + max(l,r);
