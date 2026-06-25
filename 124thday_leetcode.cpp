@@ -9,3 +9,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
     int best = numeric_limits<int>::min();
 public:
+    int maxPathSum(TreeNode* root) { best = numeric_limits<int>::min(); helper(root); return best; }
