@@ -14,3 +14,4 @@ public:
         if (!node) return 0;
         int l = max(0, helper(node->left));
         int r = max(0, helper(node->right));
+        best = max(best, node->val + l + r);
