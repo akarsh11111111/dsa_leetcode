@@ -5,3 +5,4 @@ using namespace std;
 
 // LeetCode #125: Valid Palindrome
 class Solution {
+public:
