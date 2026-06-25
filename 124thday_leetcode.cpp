@@ -10,3 +10,4 @@ class Solution {
     int best = numeric_limits<int>::min();
 public:
     int maxPathSum(TreeNode* root) { best = numeric_limits<int>::min(); helper(root); return best; }
+    int helper(TreeNode* node){
