@@ -17,3 +17,4 @@ public:
         best = max(best, node->val + l + r);
         return node->val + max(l,r);
     }
+};
