@@ -12,3 +12,4 @@ public:
     int maxPathSum(TreeNode* root) { best = numeric_limits<int>::min(); helper(root); return best; }
     int helper(TreeNode* node){
         if (!node) return 0;
+        int l = max(0, helper(node->left));
