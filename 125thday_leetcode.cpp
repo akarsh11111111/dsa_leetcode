@@ -13,3 +13,4 @@ public:
             while (i<j && !isalnum((unsigned char)s[j])) j--;
             if (tolower(s[i])!=tolower(s[j])) return false;
             i++; j--;
+        }
