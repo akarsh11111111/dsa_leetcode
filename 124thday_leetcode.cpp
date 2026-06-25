@@ -8,3 +8,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 
 class Solution {
     int best = numeric_limits<int>::min();
+public:
