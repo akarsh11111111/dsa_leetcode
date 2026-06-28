@@ -23,3 +23,4 @@ public:
             for (auto &w: current){
                 string s = w;
                 for (int i=0;i<s.size();++i){
+                    char orig = s[i];
