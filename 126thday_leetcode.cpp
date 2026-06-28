@@ -14,3 +14,4 @@ public:
         unordered_set<string> dict(wordList.begin(), wordList.end());
         vector<vector<string>> res;
         if (!dict.count(endWord)) return res;
+        unordered_map<string, vector<string>> prev;
