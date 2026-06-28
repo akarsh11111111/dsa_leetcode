@@ -15,3 +15,4 @@ public:
         vector<vector<string>> res;
         if (!dict.count(endWord)) return res;
         unordered_map<string, vector<string>> prev;
+        unordered_set<string> current{beginWord};
