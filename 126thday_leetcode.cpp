@@ -20,3 +20,4 @@ public:
         while (!current.empty() && !found){
             unordered_set<string> next;
             for (auto &w: current) dict.erase(w);
+            for (auto &w: current){
