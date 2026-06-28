@@ -39,3 +39,4 @@ public:
         if (!found) return res;
         vector<string> path{endWord};
         function<void(const string&)> backtrack = [&](const string& w){
+            if (w==beginWord){
