@@ -32,3 +32,4 @@ public:
                         if (s==endWord) found=true;
                     }
                     s[i]=orig;
+                }
