@@ -37,3 +37,4 @@ public:
             current = move(next);
         }
         if (!found) return res;
+        vector<string> path{endWord};
