@@ -47,3 +47,4 @@ public:
         backtrack(endWord);
         return res;
     }
+};
