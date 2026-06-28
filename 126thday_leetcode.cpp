@@ -16,3 +16,4 @@ public:
         if (!dict.count(endWord)) return res;
         unordered_map<string, vector<string>> prev;
         unordered_set<string> current{beginWord};
+        bool found=false;
