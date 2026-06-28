@@ -44,3 +44,4 @@ public:
             }
             for (auto &p: prev[w]){ path.push_back(p); backtrack(p); path.pop_back(); }
         };
+        backtrack(endWord);
