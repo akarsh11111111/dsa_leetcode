@@ -27,3 +27,4 @@ public:
                     for (char c='a';c<='z';++c){
                         s[i]=c;
                         if (!dict.count(s)) continue;
+                        next.insert(s);
