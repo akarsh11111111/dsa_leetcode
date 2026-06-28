@@ -34,3 +34,4 @@ public:
                     s[i]=orig;
                 }
             }
+            current = move(next);
