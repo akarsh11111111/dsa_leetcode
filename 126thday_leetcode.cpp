@@ -36,3 +36,4 @@ public:
             }
             current = move(next);
         }
+        if (!found) return res;
