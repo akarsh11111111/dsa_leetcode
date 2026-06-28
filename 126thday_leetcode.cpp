@@ -18,3 +18,4 @@ public:
         unordered_set<string> current{beginWord};
         bool found=false;
         while (!current.empty() && !found){
+            unordered_set<string> next;
