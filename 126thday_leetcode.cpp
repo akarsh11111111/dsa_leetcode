@@ -22,3 +22,4 @@ public:
             for (auto &w: current) dict.erase(w);
             for (auto &w: current){
                 string s = w;
+                for (int i=0;i<s.size();++i){
