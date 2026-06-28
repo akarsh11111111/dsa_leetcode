@@ -24,3 +24,4 @@ public:
                 string s = w;
                 for (int i=0;i<s.size();++i){
                     char orig = s[i];
+                    for (char c='a';c<='z';++c){
