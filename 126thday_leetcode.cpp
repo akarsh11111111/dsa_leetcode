@@ -21,3 +21,4 @@ public:
             unordered_set<string> next;
             for (auto &w: current) dict.erase(w);
             for (auto &w: current){
+                string s = w;
