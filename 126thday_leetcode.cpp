@@ -43,3 +43,4 @@ public:
                 vector<string> tmp = path; reverse(tmp.begin(), tmp.end()); res.push_back(tmp); return;
             }
             for (auto &p: prev[w]){ path.push_back(p); backtrack(p); path.pop_back(); }
+        };
