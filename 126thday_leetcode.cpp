@@ -40,3 +40,4 @@ public:
         vector<string> path{endWord};
         function<void(const string&)> backtrack = [&](const string& w){
             if (w==beginWord){
+                vector<string> tmp = path; reverse(tmp.begin(), tmp.end()); res.push_back(tmp); return;
