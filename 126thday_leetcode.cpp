@@ -29,3 +29,4 @@ public:
                         if (!dict.count(s)) continue;
                         next.insert(s);
                         prev[s].push_back(w);
+                        if (s==endWord) found=true;
