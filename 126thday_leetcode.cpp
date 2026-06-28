@@ -17,3 +17,4 @@ public:
         unordered_map<string, vector<string>> prev;
         unordered_set<string> current{beginWord};
         bool found=false;
+        while (!current.empty() && !found){
