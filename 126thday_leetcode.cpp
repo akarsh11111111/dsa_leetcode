@@ -31,3 +31,4 @@ public:
                         prev[s].push_back(w);
                         if (s==endWord) found=true;
                     }
+                    s[i]=orig;
