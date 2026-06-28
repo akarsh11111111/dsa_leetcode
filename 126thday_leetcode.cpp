@@ -30,3 +30,4 @@ public:
                         next.insert(s);
                         prev[s].push_back(w);
                         if (s==endWord) found=true;
+                    }
