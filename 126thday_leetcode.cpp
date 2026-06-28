@@ -7,3 +7,4 @@
 using namespace std;
 
 // LeetCode #126: Word Ladder II (find all shortest transformation sequences)
+// Note: uses BFS + backtracking (may be heavy but acceptable as template)
