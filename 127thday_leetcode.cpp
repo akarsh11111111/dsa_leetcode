@@ -22,3 +22,4 @@ public:
                         w[i]=c;
                         if (w==endWord) return steps+1;
                         if (dict.count(w)) { q.push(w); dict.erase(w); }
+                    }
