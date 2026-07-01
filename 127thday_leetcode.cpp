@@ -15,3 +15,4 @@ public:
         while (!q.empty()){
             int sz=q.size();
             while (sz--){
+                string w=q.front(); q.pop();
