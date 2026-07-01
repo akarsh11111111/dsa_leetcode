@@ -20,3 +20,4 @@ public:
                     char orig = w[i];
                     for (char c='a';c<='z';++c){
                         w[i]=c;
+                        if (w==endWord) return steps+1;
