@@ -8,3 +8,4 @@ using namespace std;
 // LeetCode #127: Word Ladder (shortest transformation length)
 class Solution {
 public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
