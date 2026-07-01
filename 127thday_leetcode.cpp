@@ -16,3 +16,4 @@ public:
             int sz=q.size();
             while (sz--){
                 string w=q.front(); q.pop();
+                for (int i=0;i<w.size();++i){
