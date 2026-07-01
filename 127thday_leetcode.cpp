@@ -24,3 +24,4 @@ public:
                         if (dict.count(w)) { q.push(w); dict.erase(w); }
                     }
                     w[i]=orig;
+                }
