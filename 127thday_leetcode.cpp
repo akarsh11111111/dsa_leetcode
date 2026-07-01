@@ -14,3 +14,4 @@ public:
         queue<string> q; q.push(beginWord); int steps=1;
         while (!q.empty()){
             int sz=q.size();
+            while (sz--){
