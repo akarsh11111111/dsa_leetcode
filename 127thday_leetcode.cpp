@@ -21,3 +21,4 @@ public:
                     for (char c='a';c<='z';++c){
                         w[i]=c;
                         if (w==endWord) return steps+1;
+                        if (dict.count(w)) { q.push(w); dict.erase(w); }
