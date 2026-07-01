@@ -7,3 +7,4 @@ using namespace std;
 
 // LeetCode #127: Word Ladder (shortest transformation length)
 class Solution {
+public:
