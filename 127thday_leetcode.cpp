@@ -26,3 +26,4 @@ public:
                     w[i]=orig;
                 }
             }
+            steps++;
