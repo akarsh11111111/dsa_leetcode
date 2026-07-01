@@ -13,3 +13,4 @@ public:
         if (!dict.count(endWord)) return 0;
         queue<string> q; q.push(beginWord); int steps=1;
         while (!q.empty()){
+            int sz=q.size();
