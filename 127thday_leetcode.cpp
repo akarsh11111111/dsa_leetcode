@@ -18,3 +18,4 @@ public:
                 string w=q.front(); q.pop();
                 for (int i=0;i<w.size();++i){
                     char orig = w[i];
+                    for (char c='a';c<='z';++c){
