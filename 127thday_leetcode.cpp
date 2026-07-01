@@ -17,3 +17,4 @@ public:
             while (sz--){
                 string w=q.front(); q.pop();
                 for (int i=0;i<w.size();++i){
+                    char orig = w[i];
