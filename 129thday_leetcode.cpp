@@ -8,3 +8,4 @@ class Solution {
 public:
     int sumNumbers(TreeNode* root) { return dfs(root,0); }
     int dfs(TreeNode* node, int cur){
+        if (!node) return 0;
