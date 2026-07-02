@@ -10,3 +10,4 @@ public:
         unordered_set<int> s(nums.begin(), nums.end());
         int best = 0;
         for (int x: nums){
+            if (!s.count(x)) continue;
