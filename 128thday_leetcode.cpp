@@ -17,3 +17,4 @@ public:
             int right = x+1; while (s.count(right)) { s.erase(right++); cur++; }
             best = max(best, cur);
         }
+        return best;
