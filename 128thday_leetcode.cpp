@@ -11,3 +11,4 @@ public:
         int best = 0;
         for (int x: nums){
             if (!s.count(x)) continue;
+            s.erase(x);
