@@ -5,3 +5,4 @@ using namespace std;
 
 // LeetCode #128: Longest Consecutive Sequence
 class Solution {
+public:
