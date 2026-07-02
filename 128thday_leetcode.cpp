@@ -16,3 +16,4 @@ public:
             int left = x-1; while (s.count(left)) { s.erase(left--); cur++; }
             int right = x+1; while (s.count(right)) { s.erase(right++); cur++; }
             best = max(best, cur);
+        }
