@@ -10,3 +10,4 @@ public:
     int dfs(TreeNode* node, int cur){
         if (!node) return 0;
         cur = cur*10 + node->val;
+        if (!node->left && !node->right) return cur;
