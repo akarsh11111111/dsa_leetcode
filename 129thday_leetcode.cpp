@@ -11,3 +11,4 @@ public:
         if (!node) return 0;
         cur = cur*10 + node->val;
         if (!node->left && !node->right) return cur;
+        return dfs(node->left,cur) + dfs(node->right,cur);
