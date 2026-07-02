@@ -12,3 +12,4 @@ public:
         for (int x: nums){
             if (!s.count(x)) continue;
             s.erase(x);
+            int cur = 1;
