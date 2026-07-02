@@ -13,3 +13,4 @@ public:
         if (!node->left && !node->right) return cur;
         return dfs(node->left,cur) + dfs(node->right,cur);
     }
+};
