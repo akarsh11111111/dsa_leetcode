@@ -9,3 +9,4 @@ public:
     int longestConsecutive(vector<int>& nums) {
         unordered_set<int> s(nums.begin(), nums.end());
         int best = 0;
+        for (int x: nums){
