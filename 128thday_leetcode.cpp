@@ -18,3 +18,4 @@ public:
             best = max(best, cur);
         }
         return best;
+    }
