@@ -14,3 +14,4 @@ public:
             s.erase(x);
             int cur = 1;
             int left = x-1; while (s.count(left)) { s.erase(left--); cur++; }
+            int right = x+1; while (s.count(right)) { s.erase(right++); cur++; }
