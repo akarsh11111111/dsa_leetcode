@@ -7,3 +7,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
 public:
     int sumNumbers(TreeNode* root) { return dfs(root,0); }
+    int dfs(TreeNode* node, int cur){
