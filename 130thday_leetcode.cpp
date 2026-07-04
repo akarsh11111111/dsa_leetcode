@@ -8,3 +8,4 @@ class Solution {
 public:
     void solve(vector<vector<char>>& board) {
         if (board.empty()) return;
+        int m = board.size(), n = board[0].size();
