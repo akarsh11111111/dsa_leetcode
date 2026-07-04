@@ -11,3 +11,4 @@ public:
         int m = board.size(), n = board[0].size();
         queue<pair<int,int>> q;
         for (int i=0;i<m;i++){
+            if (board[i][0]=='O') { board[i][0]='T'; q.push({i,0}); }
