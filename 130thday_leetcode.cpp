@@ -20,3 +20,4 @@ public:
         }
         int dirs[4][2]={{1,0},{-1,0},{0,1},{0,-1}};
         while (!q.empty()){
+            auto [x,y]=q.front(); q.pop();
