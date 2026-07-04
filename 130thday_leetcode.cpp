@@ -18,3 +18,4 @@ public:
             if (board[0][j]=='O') { board[0][j]='T'; q.push({0,j}); }
             if (board[m-1][j]=='O') { board[m-1][j]='T'; q.push({m-1,j}); }
         }
+        int dirs[4][2]={{1,0},{-1,0},{0,1},{0,-1}};
