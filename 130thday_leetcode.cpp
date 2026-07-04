@@ -16,3 +16,4 @@ public:
         }
         for (int j=0;j<n;j++){
             if (board[0][j]=='O') { board[0][j]='T'; q.push({0,j}); }
+            if (board[m-1][j]=='O') { board[m-1][j]='T'; q.push({m-1,j}); }
