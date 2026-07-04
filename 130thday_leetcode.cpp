@@ -24,3 +24,4 @@ public:
             for (auto &d: dirs){ int nx=x+d[0], ny=y+d[1];
                 if (nx>=0 && nx<m && ny>=0 && ny<n && board[nx][ny]=='O'){ board[nx][ny]='T'; q.push({nx,ny}); }
             }
+        }
