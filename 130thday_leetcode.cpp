@@ -4,3 +4,4 @@
 using namespace std;
 
 // LeetCode #130: Surrounded Regions
+class Solution {
