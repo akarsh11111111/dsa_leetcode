@@ -12,3 +12,4 @@ public:
         queue<pair<int,int>> q;
         for (int i=0;i<m;i++){
             if (board[i][0]=='O') { board[i][0]='T'; q.push({i,0}); }
+            if (board[i][n-1]=='O') { board[i][n-1]='T'; q.push({i,n-1}); }
