@@ -19,3 +19,4 @@ public:
         function<void(int)> dfs = [&](int idx){
             if (idx==n){ res.push_back(cur); return; }
             for (int j=idx;j<n;++j) if (pal[idx][j]){
+                cur.push_back(s.substr(idx,j-idx+1)); dfs(j+1); cur.pop_back();
