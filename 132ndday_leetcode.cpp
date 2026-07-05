@@ -9,3 +9,4 @@ class Solution {
 public:
     int minCut(const string& s) {
         int n = s.size();
+        if (n<=1) return 0;
