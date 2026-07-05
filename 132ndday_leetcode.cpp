@@ -15,3 +15,10 @@ public:
             pal[i][j] = (s[i]==s[j]) && (j-i<2 || pal[i+1][j-1]);
         vector<int> dp(n+1, INT_MAX); dp[0]=-1;
         for (int i=1;i<=n;i++){
+            for (int j=0;j<i;j++) if (pal[j][i-1]) dp[i] = min(dp[i], dp[j]+1);
+        }
+        return dp[n];
+    }
+};
+
+int main(){ return 0; }
