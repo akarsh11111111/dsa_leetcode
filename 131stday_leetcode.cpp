@@ -15,3 +15,4 @@ public:
             for (int j=i;j<n;++j){
                 if (s[i]==s[j] && (j-i<2 || pal[i+1][j-1])) pal[i][j]=true;
             }
+        }
