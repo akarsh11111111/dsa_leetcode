@@ -4,3 +4,4 @@
 using namespace std;
 
 // LeetCode #131: Palindrome Partitioning
+class Solution {
