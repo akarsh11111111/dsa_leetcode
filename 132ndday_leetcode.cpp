@@ -6,3 +6,4 @@ using namespace std;
 
 // LeetCode #132: Palindrome Partitioning II (min cuts)
 class Solution {
+public:
