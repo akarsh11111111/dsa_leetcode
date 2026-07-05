@@ -16,3 +16,4 @@ public:
                 if (s[i]==s[j] && (j-i<2 || pal[i+1][j-1])) pal[i][j]=true;
             }
         }
+        function<void(int)> dfs = [&](int idx){
