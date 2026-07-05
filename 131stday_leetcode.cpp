@@ -12,3 +12,4 @@ public:
         vector<string> cur;
         vector<vector<bool>> pal(n, vector<bool>(n,false));
         for (int i=n-1;i>=0;--i){
+            for (int j=i;j<n;++j){
