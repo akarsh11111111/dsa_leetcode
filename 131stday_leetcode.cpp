@@ -10,3 +10,4 @@ public:
         int n = s.size();
         vector<vector<string>> res;
         vector<string> cur;
+        vector<vector<bool>> pal(n, vector<bool>(n,false));
