@@ -10,3 +10,4 @@ public:
     int minCut(const string& s) {
         int n = s.size();
         if (n<=1) return 0;
+        vector<vector<bool>> pal(n, vector<bool>(n,false));
