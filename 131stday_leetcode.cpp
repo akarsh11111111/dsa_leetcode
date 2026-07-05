@@ -9,3 +9,4 @@ public:
     vector<vector<string>> partition(const string& s) {
         int n = s.size();
         vector<vector<string>> res;
+        vector<string> cur;
