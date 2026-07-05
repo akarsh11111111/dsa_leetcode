@@ -8,3 +8,4 @@ using namespace std;
 class Solution {
 public:
     int minCut(const string& s) {
+        int n = s.size();
