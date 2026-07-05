@@ -17,3 +17,4 @@ public:
             }
         }
         function<void(int)> dfs = [&](int idx){
+            if (idx==n){ res.push_back(cur); return; }
