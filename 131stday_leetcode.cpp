@@ -7,3 +7,4 @@ using namespace std;
 class Solution {
 public:
     vector<vector<string>> partition(const string& s) {
+        int n = s.size();
