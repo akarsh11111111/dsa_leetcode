@@ -22,3 +22,4 @@ public:
         queue<Node*> q; q.push(node);
         m[node] = new Node(node->val);
         while (!q.empty()){
+            Node* cur = q.front(); q.pop();
