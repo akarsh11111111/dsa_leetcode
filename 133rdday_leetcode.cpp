@@ -9,3 +9,4 @@ class Node {
 public:
     int val;
     vector<Node*> neighbors;
+    Node(): val(0) {}
