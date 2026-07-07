@@ -18,3 +18,4 @@ class Solution {
 public:
     Node* cloneGraph(Node* node) {
         if (!node) return nullptr;
+        unordered_map<Node*, Node*> m;
