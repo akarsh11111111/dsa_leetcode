@@ -28,3 +28,4 @@ public:
                 m[cur]->neighbors.push_back(m[nb]);
             }
         }
+        return m[node];
