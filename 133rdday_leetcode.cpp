@@ -24,3 +24,4 @@ public:
         while (!q.empty()){
             Node* cur = q.front(); q.pop();
             for (Node* nb : cur->neighbors){
+                if (!m.count(nb)) { m[nb] = new Node(nb->val); q.push(nb); }
