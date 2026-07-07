@@ -10,3 +10,4 @@ public:
     int val;
     vector<Node*> neighbors;
     Node(): val(0) {}
+    Node(int _val): val(_val) {}
