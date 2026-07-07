@@ -6,3 +6,4 @@ using namespace std;
 
 // LeetCode #133: Clone Graph
 class Node {
+public:
