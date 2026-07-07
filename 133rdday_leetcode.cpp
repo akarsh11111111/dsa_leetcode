@@ -21,3 +21,4 @@ public:
         unordered_map<Node*, Node*> m;
         queue<Node*> q; q.push(node);
         m[node] = new Node(node->val);
+        while (!q.empty()){
