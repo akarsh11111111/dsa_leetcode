@@ -8,3 +8,4 @@ using namespace std;
 class Node {
 public:
     int val;
+    vector<Node*> neighbors;
