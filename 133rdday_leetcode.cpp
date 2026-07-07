@@ -23,3 +23,4 @@ public:
         m[node] = new Node(node->val);
         while (!q.empty()){
             Node* cur = q.front(); q.pop();
+            for (Node* nb : cur->neighbors){
