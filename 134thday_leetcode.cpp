@@ -4,3 +4,4 @@ using namespace std;
 
 // LeetCode #134: Gas Station
 class Solution {
+public:
