@@ -16,3 +16,4 @@ public:
         return total>=0 ? start : -1;
     }
 };
+
