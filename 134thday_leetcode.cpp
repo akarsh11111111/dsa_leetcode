@@ -12,3 +12,4 @@ public:
             int diff = gas[i]-cost[i];
             total += diff; sum += diff;
             if (sum<0){ start = i+1; sum=0; }
+        }
