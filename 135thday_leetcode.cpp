@@ -8,3 +8,4 @@ public:
     int candy(vector<int>& ratings) {
         int n = ratings.size();
         if (n==0) return 0;
+        vector<int> left(n,1), right(n,1);
