@@ -14,3 +14,4 @@ public:
             if (sum<0){ start = i+1; sum=0; }
         }
         return total>=0 ? start : -1;
+    }
