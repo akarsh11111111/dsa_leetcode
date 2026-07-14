@@ -11,3 +11,4 @@ public:
             ones = (ones ^ x) & ~twos;
             twos = (twos ^ x) & ~ones;
         }
+        return ones;
