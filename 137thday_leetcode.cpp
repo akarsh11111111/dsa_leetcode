@@ -10,3 +10,4 @@ public:
         for (int x: nums){
             ones = (ones ^ x) & ~twos;
             twos = (twos ^ x) & ~ones;
+        }
