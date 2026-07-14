@@ -12,3 +12,4 @@ public:
             twos = (twos ^ x) & ~ones;
         }
         return ones;
+    }
