@@ -11,3 +11,4 @@ public:
     Node(int _val): val(_val), next(nullptr), random(nullptr){}
 };
 
+class Solution {
