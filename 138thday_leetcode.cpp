@@ -10,3 +10,4 @@ public:
     Node* random;
     Node(int _val): val(_val), next(nullptr), random(nullptr){}
 };
+
