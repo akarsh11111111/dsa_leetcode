@@ -5,3 +5,4 @@
 using namespace std;
 
 // LeetCode #139: Word Break (DP)
+class Solution {
