@@ -7,3 +7,4 @@ using namespace std;
 // LeetCode #139: Word Break (DP)
 class Solution {
 public:
+    bool wordBreak(const string& s, vector<string>& wordDict) {
