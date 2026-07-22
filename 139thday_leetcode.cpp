@@ -8,3 +8,4 @@ using namespace std;
 class Solution {
 public:
     bool wordBreak(const string& s, vector<string>& wordDict) {
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
