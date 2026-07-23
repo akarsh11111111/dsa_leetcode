@@ -14,3 +14,4 @@ public:
         function<vector<string>(int)> dfs = [&](int idx){
             if (memo.count(idx)) return memo[idx];
             vector<string> res;
+            if (idx==s.size()) { res.push_back(""); return memo[idx]=res; }
