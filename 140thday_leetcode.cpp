@@ -9,3 +9,4 @@ using namespace std;
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
