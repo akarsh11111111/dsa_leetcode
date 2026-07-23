@@ -20,3 +20,4 @@ public:
                 if (!dict.count(word)) continue;
                 auto tails = dfs(i);
                 for (auto &t: tails){
+                    string sep = t.empty() ? "" : " ";
