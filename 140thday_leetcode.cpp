@@ -21,3 +21,4 @@ public:
                 auto tails = dfs(i);
                 for (auto &t: tails){
                     string sep = t.empty() ? "" : " ";
+                    res.push_back(word + (t.empty()?"":" "+t));
