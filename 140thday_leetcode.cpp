@@ -24,3 +24,4 @@ public:
                     res.push_back(word + (t.empty()?"":" "+t));
                 }
             }
+            return memo[idx]=res;
