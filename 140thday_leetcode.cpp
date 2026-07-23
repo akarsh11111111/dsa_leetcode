@@ -23,3 +23,4 @@ public:
                     string sep = t.empty() ? "" : " ";
                     res.push_back(word + (t.empty()?"":" "+t));
                 }
+            }
