@@ -17,3 +17,4 @@ public:
             if (idx==s.size()) { res.push_back(""); return memo[idx]=res; }
             for (int i=idx+1;i<=s.size();++i){
                 string word = s.substr(idx, i-idx);
+                if (!dict.count(word)) continue;
