@@ -19,3 +19,4 @@ public:
                 string word = s.substr(idx, i-idx);
                 if (!dict.count(word)) continue;
                 auto tails = dfs(i);
+                for (auto &t: tails){
