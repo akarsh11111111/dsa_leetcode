@@ -8,3 +8,4 @@ using namespace std;
 // LeetCode #140: Word Break II (all sentences)
 class Solution {
 public:
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
