@@ -18,3 +18,4 @@ public:
             for (int i=idx+1;i<=s.size();++i){
                 string word = s.substr(idx, i-idx);
                 if (!dict.count(word)) continue;
+                auto tails = dfs(i);
