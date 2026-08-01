@@ -12,3 +12,4 @@ public:
         if (!fast || !fast->next) return nullptr;
         slow = head;
         while (slow!=fast){ slow=slow->next; fast=fast->next; }
+        return slow;
