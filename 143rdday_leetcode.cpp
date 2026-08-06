@@ -15,3 +15,4 @@ public:
         ListNode* prev=nullptr; ListNode* cur=slow->next; while (cur){ ListNode* nx=cur->next; cur->next=prev; prev=cur; cur=nx; }
         slow->next = nullptr;
         // merge
+        ListNode* p=head; ListNode* q=prev;
