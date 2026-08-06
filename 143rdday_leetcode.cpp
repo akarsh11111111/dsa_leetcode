@@ -11,3 +11,4 @@ public:
         // find middle
         ListNode *slow=head, *fast=head;
         while (fast->next && fast->next->next){ slow=slow->next; fast=fast->next->next; }
+        // reverse second
