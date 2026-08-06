@@ -12,3 +12,4 @@ public:
         ListNode *slow=head, *fast=head;
         while (fast->next && fast->next->next){ slow=slow->next; fast=fast->next->next; }
         // reverse second
+        ListNode* prev=nullptr; ListNode* cur=slow->next; while (cur){ ListNode* nx=cur->next; cur->next=prev; prev=cur; cur=nx; }
