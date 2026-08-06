@@ -19,3 +19,4 @@ public:
         while (q){ ListNode* pn=p->next; ListNode* qn=q->next; p->next=q; q->next=pn; p=pn; q=qn; }
     }
 };
+
