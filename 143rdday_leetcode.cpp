@@ -16,3 +16,4 @@ public:
         slow->next = nullptr;
         // merge
         ListNode* p=head; ListNode* q=prev;
+        while (q){ ListNode* pn=p->next; ListNode* qn=q->next; p->next=q; q->next=pn; p=pn; q=qn; }
