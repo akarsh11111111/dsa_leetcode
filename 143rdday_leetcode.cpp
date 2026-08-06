@@ -9,3 +9,4 @@ public:
     void reorderList(ListNode* head) {
         if (!head || !head->next) return;
         // find middle
+        ListNode *slow=head, *fast=head;
