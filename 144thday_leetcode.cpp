@@ -9,3 +9,4 @@ struct TreeNode { int val; TreeNode* left; TreeNode* right; TreeNode(int x): val
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
+        vector<int> res; if (!root) return res;
